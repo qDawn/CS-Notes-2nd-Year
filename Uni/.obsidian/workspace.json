@@ -11,10 +11,14 @@
             "id": "fdb1daf17b8af891",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exam Timetable.md"
             }
           }
         ]
@@ -179,19 +183,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "fdb1daf17b8af891",
+  "active": "e4a82ace1c597b3a",
   "lastOpenFiles": [
+    "Dashboard",
+    "German/Dashboard",
+    "German/Vocabulary/Practice Questions & Exam Prep",
+    "German/Exam/Writing/Grammar Notes",
+    "German/Exam/Writing/Writing Practice",
+    "German/Exam/Writing/Sentence Builders",
+    "German/Exam/Reading/Texts & Translations",
+    "German/Exam/Listening/Listening Practice Logs",
+    "German/Exam/Listening/Youtube Channels",
+    "German/Exam/Speaking/Speaking Practice Logs",
+    "German/Exam/Speaking/Phrases & Expressions",
+    "Computer Science/Year 2/Templates/Practice Question.md",
+    "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
+    "Computer Science/Year 2/Templates/Lecture Note Template.md",
+    "Computer Science/Year 2/Templates/Exam Paper Log Template.md",
+    "Computer Science/Year 2/Templates/ Youtube Video Note.md",
+    "Computer Science/Year 2/Templates/Diagram Note Template.md",
     "Untitled.md",
-    "German/Grammar",
-    "German/Sentence Builders",
-    "German/Exam/Reading",
-    "German/Exam/Writing",
-    "German/Exam/Listening",
-    "German/Exam/Speaking",
-    "German/Youtube Channels",
-    "Computer Science/Year 2/CS2XX 1 1",
-    "Computer Science/Year 2/CS2XX 4",
-    "Computer Science/Year 2/CS2XX 3",
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled 3.md",
