@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
+                "file": "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Syllabus.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exam Timetable.md"
+              "title": "Syllabus"
+            }
+          },
+          {
+            "id": "bf794c9aebc102ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "German/Module Assessment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Module Assessment"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,26 +198,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "e4a82ace1c597b3a",
+  "active": "bf794c9aebc102ad",
   "lastOpenFiles": [
+    "Computer Science/Year 2/Term 1/CS241 OS and Computer Networks/Module Assessment.md",
+    "German/Module Assessment.md",
+    "Computer Science/Year 2/Term 1/CS241 OS and Computer Networks/Syllabus.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Syllabus.md",
+    "Computer Science/Year 2/Term 2/CS261 Software Engineering/Module Assessment.md",
+    "Computer Science/Year 2/Term 2/CS261 Software Engineering/Syllabus.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Module Assessment.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Syllabus.md",
+    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Module Assessment.md",
+    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Resources/Reading List.md",
+    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Syllabus.md",
+    "Computer Science/Year 2/Templates/ Youtube Video Note.md",
+    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Lectures",
+    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Resources",
+    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Diagrams & Media",
+    "Computer Science/Year 2/CS267 Linear Algebra and Calculus",
+    "Computer Science/Year 2/Untitled",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Diagrams & Media",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics",
+    "Computer Science/Year 2/Templates/Diagram Note Template.md",
+    "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
     "German/Exam/Listening/Youtube Channels/Channels.md",
     "Dashboard",
-    "German/Dashboard",
-    "German/Vocabulary/Practice Questions & Exam Prep",
-    "German/Exam/Writing/Grammar Notes",
-    "German/Exam/Writing/Writing Practice",
-    "German/Exam/Writing/Sentence Builders",
-    "German/Exam/Reading/Texts & Translations",
-    "German/Exam/Listening/Listening Practice Logs",
-    "German/Exam/Listening/Youtube Channels",
-    "German/Exam/Speaking/Speaking Practice Logs",
     "Computer Science/Year 2/Templates/Practice Question.md",
-    "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
     "Computer Science/Year 2/Templates/Lecture Note Template.md",
     "Computer Science/Year 2/Templates/Exam Paper Log Template.md",
-    "Computer Science/Year 2/Templates/ Youtube Video Note.md",
-    "Computer Science/Year 2/Templates/Diagram Note Template.md",
-    "Untitled.md",
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled 3.md",

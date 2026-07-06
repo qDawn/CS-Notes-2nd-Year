@@ -1,9 +1,11 @@
 ---
-title: 
-channel: 
-url: 
+title:
+channel:
+url:
 watched: false
-tags: [youtube, resource]
+tags:
+  - youtube
+  - resource
 ---
 
 # 🎬 {{title}}
