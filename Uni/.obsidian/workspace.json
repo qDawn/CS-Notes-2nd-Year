@@ -25,14 +25,17 @@
             "id": "bf794c9aebc102ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "German/Module Assessment.md",
-                "mode": "source",
-                "source": false
+                "file": "Dashboard/Plan.canvas",
+                "viewState": {
+                  "x": 123.31774753032148,
+                  "y": 245.89533837045065,
+                  "zoom": 0.5
+                }
               },
-              "icon": "lucide-file",
-              "title": "Module Assessment"
+              "icon": "lucide-layout-dashboard",
+              "title": "Plan"
             }
           }
         ],
@@ -56,7 +59,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -93,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 230.5
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -171,21 +176,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md",
+                "file": "Dashboard/Plan.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled"
+              "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,14 +200,34 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "bf794c9aebc102ad",
   "lastOpenFiles": [
-    "Computer Science/Year 2/Term 1/CS241 OS and Computer Networks/Module Assessment.md",
+    "Dashboard/Search.base",
+    "Dashboard/Plan.canvas",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Module Assessment.md",
+    "2026-09-29.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Syllabus.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Resources",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Diagrams & Media",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev",
+    "Computer Science/Year 2/Term 1/Untitled.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L1 Introduction.md",
+    "2026-09-30.md",
+    "Daily Planner/2026-09-29.md",
+    "Daily Planner",
     "German/Module Assessment.md",
-    "Computer Science/Year 2/Term 1/CS241 OS and Computer Networks/Syllabus.md",
+    "Computer Science/Year 2/! Schedule/Untitled.md",
+    "Computer Science/Year 2/! Schedule",
+    "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Module Assessment.md",
+    "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
@@ -211,29 +236,11 @@
     "Computer Science/Year 2/Term 2/CS261 Software Engineering/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Syllabus.md",
-    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Module Assessment.md",
-    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Resources/Reading List.md",
-    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Syllabus.md",
+    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Module Assessment.md",
+    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Resources/Reading List.md",
+    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Syllabus.md",
     "Computer Science/Year 2/Templates/ Youtube Video Note.md",
-    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Lectures",
-    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Resources",
-    "Computer Science/Year 2/CS267 Linear Algebra and Calculus/Diagrams & Media",
-    "Computer Science/Year 2/CS267 Linear Algebra and Calculus",
-    "Computer Science/Year 2/Untitled",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Diagrams & Media",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics",
-    "Computer Science/Year 2/Templates/Diagram Note Template.md",
-    "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
-    "German/Exam/Listening/Youtube Channels/Channels.md",
-    "Dashboard",
-    "Computer Science/Year 2/Templates/Practice Question.md",
-    "Computer Science/Year 2/Templates/Lecture Note Template.md",
-    "Computer Science/Year 2/Templates/Exam Paper Log Template.md",
-    "Untitled 2.md",
-    "Untitled 1.md",
-    "Untitled 3.md",
-    "Welcome.md"
+    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Lectures",
+    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Resources"
   ]
 }
