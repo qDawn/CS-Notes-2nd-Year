@@ -25,17 +25,14 @@
             "id": "bf794c9aebc102ad",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard/Plan.canvas",
-                "viewState": {
-                  "x": 123.31774753032148,
-                  "y": 245.89533837045065,
-                  "zoom": 0.5
-                }
+                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 - Analysis of Algorithms.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Plan"
+              "icon": "lucide-file",
+              "title": "L2 - Analysis of Algorithms"
             }
           }
         ],
@@ -176,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard/Plan.canvas",
+                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 - Analysis of Algorithms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,8 +204,14 @@
   },
   "active": "bf794c9aebc102ad",
   "lastOpenFiles": [
-    "Dashboard/Search.base",
+    "Pasted image 20261006220905.png",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Texts.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 - Analysis of Algorithms.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
+    "Computer Science/Year 2/Term 2/CS254 Algorithmic Graph Theory/Lectures/L1 - Introduction.md",
     "Dashboard/Plan.canvas",
+    "Dashboard/Search.base",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Module Assessment.md",
     "2026-09-29.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
@@ -219,7 +223,6 @@
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev",
     "Computer Science/Year 2/Term 1/Untitled.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L1 Introduction.md",
     "2026-09-30.md",
     "Daily Planner/2026-09-29.md",
     "Daily Planner",
@@ -230,16 +233,12 @@
     "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Syllabus.md",
     "Computer Science/Year 2/Term 2/CS261 Software Engineering/Module Assessment.md",
     "Computer Science/Year 2/Term 2/CS261 Software Engineering/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Syllabus.md",
     "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Module Assessment.md",
-    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Resources/Reading List.md",
-    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Syllabus.md",
-    "Computer Science/Year 2/Templates/ Youtube Video Note.md",
     "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Lectures",
     "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Resources"
   ]
