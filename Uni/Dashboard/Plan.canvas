@@ -1,11 +1,9 @@
 {
 	"nodes":[
-		{"id":"bb15141025054ca6","x":-125,"y":95,"width":250,"height":60,"type":"text","text":"Algorithms Revision and Notes"},
-		{"id":"77612db9cee8eef4","x":-73,"y":204,"width":250,"height":60,"type":"text","text":"Database Revision and Notes\n"},
+		{"id":"77612db9cee8eef4","type":"text","text":"Database Revision and Notes\n","x":-73,"y":204,"width":250,"height":60},
 		{"id":"931cbe67476cae04","type":"text","text":"Probability and Stats Revision\n","x":-73,"y":360,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"cd527c899adf8efc","fromNode":"77612db9cee8eef4","fromSide":"bottom","toNode":"931cbe67476cae04","toSide":"top"},
-		{"id":"c9218abb699abe6b","fromNode":"bb15141025054ca6","fromSide":"bottom","toNode":"77612db9cee8eef4","toSide":"top"}
+		{"id":"cd527c899adf8efc","fromNode":"77612db9cee8eef4","fromSide":"bottom","toNode":"931cbe67476cae04","toSide":"top"}
 	]
 }

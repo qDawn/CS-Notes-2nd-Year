@@ -20,3 +20,5 @@ if that condition is met it is poly-time
 - Avoid the exponential cost of brute force 
 ![[Pasted image 20261006220905.png]]
 
+Asymptotic Notation
+![[Pasted image 20261006221451.png]]

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 - Analysis of Algorithms.md",
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L2 Database Intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L2 - Analysis of Algorithms"
+              "title": "L2 Database Intro"
             }
           }
         ],
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 - Analysis of Algorithms.md",
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L2 Database Intro.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -204,18 +204,25 @@
   },
   "active": "bf794c9aebc102ad",
   "lastOpenFiles": [
-    "Pasted image 20261006220905.png",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Texts.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 - Analysis of Algorithms.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L1 Introduction.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
-    "Computer Science/Year 2/Term 2/CS254 Algorithmic Graph Theory/Lectures/L1 - Introduction.md",
     "Dashboard/Plan.canvas",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L2 Database Intro.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Texts.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Syllabus.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 - Analysis of Algorithms.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261006221451.png",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261006220905.png",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Texts.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 2/CS254 Algorithmic Graph Theory/Lectures/L1 - Introduction.md",
     "Dashboard/Search.base",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Module Assessment.md",
     "2026-09-29.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Resources",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures",
@@ -231,14 +238,8 @@
     "Computer Science/Year 2/! Schedule",
     "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Module Assessment.md",
     "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Syllabus.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Syllabus.md",
     "Computer Science/Year 2/Term 2/CS261 Software Engineering/Module Assessment.md",
     "Computer Science/Year 2/Term 2/CS261 Software Engineering/Syllabus.md",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Module Assessment.md",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Syllabus.md",
-    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Module Assessment.md",
     "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Lectures",
     "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Resources"
   ]
