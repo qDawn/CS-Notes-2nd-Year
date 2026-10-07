@@ -29,4 +29,9 @@
 	- Set of rows : Data elements in each row represent facts corresponding to a real world entity or relationship
 	- Each column
 		- Represents a characteristic or attribute of interest of that entity
-		- 
+		- Has a column header that indicates the meaning of data items
+		- Formal model its called an attribute name
+
+- Key of a relation
+	- Each row must be uniquely identifiable in the table
+	- Natural keys like : NI number, Car Reg
