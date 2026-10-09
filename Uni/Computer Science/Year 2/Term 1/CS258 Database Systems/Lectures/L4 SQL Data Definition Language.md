@@ -57,4 +57,8 @@ CHECK clause
 
 ### If a supervisor's row is deleted the tuple referencing it will have the super_id set to NULL
 
+
 ![[Pasted image 20261009010909.png]]
+
+![[Pasted image 20261009011303.png]]
+
