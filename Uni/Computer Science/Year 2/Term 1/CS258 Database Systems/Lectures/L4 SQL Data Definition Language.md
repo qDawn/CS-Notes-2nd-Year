@@ -43,3 +43,18 @@ CHECK clause
  
 ![[Pasted image 20261009002814.png]]
 
+## Referential Integrity Constraints
+
+- FOREIGN KEY adds constraint to check/ handle during updates
+	- Usually prevents violations
+	- Also, make a referential triggered action :
+		- SET NULL
+		- SET DEFAULT
+		- CASCADE
+	- Can define a different action for different types of update
+		- ON DELETE and ON UPDATE
+![[Pasted image 20261009010755.png]]
+
+### If a supervisor's row is deleted the tuple referencing it will have the super_id set to NULL
+
+![[Pasted image 20261009010909.png]]
