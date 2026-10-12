@@ -62,3 +62,71 @@ CHECK clause
 
 ![[Pasted image 20261009011303.png]]
 
+## Constraints - PRIMARY KEY syntax
+
+###  <attName_> <attType_> PRIMARY KEY
+
+Identifies an attribute as a primary key, this means that it is unique
+
+e.g
+``` SQL
+StudentID INT Primary Key
+```
+
+## UNIQUE syntax
+
+<attName_> <attType_> UNIQUE
+
+defines a unique/secondary key
+e.g
+``` SQL
+StudentID INT UNIQUE
+```
+
+attributes defined as UNIQUE can be NULL unless explicitly defined as NOT NULL
+
+## Foreign Key
+
+``` SQL
+
+FOREIGN KEY <attName1> REFERENCES <table>(<attname2>)
+
+```
+Refers attributes across tables
+
+![[Pasted image 20261013003621.png]]
+
+Foreign Key doesn't have to reference an attribute of same name, only cares about the values
+
+FK's impose a fixed order to operations, before adding a student on courseID = 3 you must add the course to the course table.
+
+## Attribute Constraints
+
+
+``` SQL
+<attName> <attType> CHECK (boolean expression)
+```
+
+
+Check can be defined either next to the definition of the attribute or at the end of the create table.
+![[Pasted image 20261013004333.png]]
+
+can also name constraints 
+
+``` SQL
+CONSTRAINT <constraintName> <constraint>
+```
+### Default values
+
+courseID INT DEFAULT 1;
+sets default value for attributes to 1 if not assigned 
+
+## Syntax for RI actions
+
+![[Pasted image 20261013004609.png]]
+
+## Drop table
+
+DROP TABLE <tablename_>
+
+deletes the schema and data

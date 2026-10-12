@@ -1,9 +1,10 @@
 {
 	"nodes":[
-		{"id":"77612db9cee8eef4","type":"text","text":"Database Revision and Notes\n","x":-73,"y":204,"width":250,"height":60},
-		{"id":"931cbe67476cae04","type":"text","text":"Probability and Stats Revision\n","x":-73,"y":360,"width":250,"height":60}
+		{"id":"77612db9cee8eef4","type":"text","text":"Database Revision and Notes\n","x":-73,"y":220,"width":250,"height":60},
+		{"id":"931cbe67476cae04","type":"text","text":"Probability and Stats Revision & problem set\n","x":-73,"y":100,"width":250,"height":60},
+		{"id":"c7e745c2669f7955","x":-73,"y":380,"width":250,"height":50,"type":"text","text":"Algorithms notes and problem sheet\n"}
 	],
 	"edges":[
-		{"id":"cd527c899adf8efc","fromNode":"77612db9cee8eef4","fromSide":"bottom","toNode":"931cbe67476cae04","toSide":"top"}
+		{"id":"bad0e5f37061e0c8","fromNode":"931cbe67476cae04","fromSide":"bottom","toNode":"77612db9cee8eef4","toSide":"top"}
 	]
 }
