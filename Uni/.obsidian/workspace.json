@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L5 Data Manipulation.md",
+                "file": "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L5 Data Manipulation"
+              "title": "L4 - Loops"
             }
           }
         ],
@@ -228,8 +228,10 @@
   },
   "active": "b717bff528884453",
   "lastOpenFiles": [
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L4 SQL Data Definition Language.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L5 Data Manipulation.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L4 SQL Data Definition Language.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261013004609.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261013004333.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261013003621.png",
@@ -248,7 +250,6 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261009011303.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261009010909.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261009010755.png",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Resources/Untitled.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Texts.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
@@ -271,7 +272,6 @@
     "Daily Planner/2026-09-29.md",
     "Daily Planner",
     "German/Module Assessment.md",
-    "Computer Science/Year 2/! Schedule/Untitled.md",
     "Computer Science/Year 2/! Schedule",
     "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Lectures",
     "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Resources"
