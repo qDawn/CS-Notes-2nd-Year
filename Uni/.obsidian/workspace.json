@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L6 Constraints and Dependencies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L4 - Loops"
+              "title": "L6 Constraints and Dependencies"
             }
           }
         ],
@@ -119,7 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 404.5
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -228,17 +228,30 @@
   },
   "active": "b717bff528884453",
   "lastOpenFiles": [
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
+    "Dashboard/Plan.canvas",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L6 Constraints and Dependencies.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L5 Data Manipulation.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L4 SQL Data Definition Language.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Coursework/GDD.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 1.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 5.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 4.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 1 1.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 3.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 2.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 0.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Coursework",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261013004609.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261013004333.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261013003621.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261013003524.png",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L1 Introduction.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 - Analysis of Algorithms.md",
-    "Dashboard/Plan.canvas",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L3 SQL Introduction.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L2 Database Intro.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L1 Introduction.md",
@@ -246,7 +259,6 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261008233125.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261008233848.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261008234539.png",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261009011303.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261009010909.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261009010755.png",
@@ -255,25 +267,13 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Syllabus.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Texts.md",
-    "Computer Science/Year 2/Term 2/CS254 Algorithmic Graph Theory/Lectures/L1 - Introduction.md",
     "Dashboard/Search.base",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Module Assessment.md",
-    "2026-09-29.md",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Resources",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Diagrams & Media",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev",
-    "Computer Science/Year 2/Term 1/Untitled.md",
-    "2026-09-30.md",
-    "Daily Planner/2026-09-29.md",
     "Daily Planner",
-    "German/Module Assessment.md",
-    "Computer Science/Year 2/! Schedule",
-    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Lectures",
-    "Computer Science/Year 2/Term 2/CS267 Linear Algebra and Calculus/Resources"
+    "Computer Science/Year 2/! Schedule"
   ]
 }

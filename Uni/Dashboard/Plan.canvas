@@ -1,10 +1,9 @@
 {
 	"nodes":[
-		{"id":"77612db9cee8eef4","type":"text","text":"Database Revision and Notes\n","x":-73,"y":220,"width":250,"height":60},
-		{"id":"931cbe67476cae04","type":"text","text":"Probability and Stats Revision & problem set\n","x":-73,"y":100,"width":250,"height":60},
-		{"id":"c7e745c2669f7955","x":-73,"y":380,"width":250,"height":50,"type":"text","text":"Algorithms notes and problem sheet\n"}
+		{"id":"f37f3e7572fa1fef","type":"text","text":"Algorithms problem sheet\n2","x":-120,"y":40,"width":250,"height":60},
+		{"id":"075048357c58d9af","type":"text","text":"Prototype Game dev","x":200,"y":40,"width":250,"height":50},
+		{"id":"c7e745c2669f7955","type":"text","text":"Algorithms notes and problem sheet\n","x":-120,"y":140,"width":250,"height":50},
+		{"id":"1754c009c36ffa3a","type":"text","text":"Probability and Stats problem sheet 2","x":200,"y":140,"width":250,"height":60}
 	],
-	"edges":[
-		{"id":"bad0e5f37061e0c8","fromNode":"931cbe67476cae04","fromSide":"bottom","toNode":"77612db9cee8eef4","toSide":"top"}
-	]
+	"edges":[]
 }
