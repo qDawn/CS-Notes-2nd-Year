@@ -66,10 +66,13 @@ A candidate key is a minimal superkey
 - If a relation has several candidate keys, one is chosen arbitrarily to be a primary key
 
 ## Entity Integrity Constraints
-Primary Key atrributes cannot be NULL 
+Primary Key attributes cannot be NULL 
 Because PK values uniquely identify individual tuples
 If PK is a composite key of several attributes that means no NULL in any of these. 
 
 Non-key attributes can also be declared NOT NULL, this would be a domain constraint.
 
 ## Referential Integrity Constraints
+
+A logical DB design spreads information across multiple tables 
+Following good DB design practices spreading queryable info across tables is warranted
