@@ -95,4 +95,18 @@ A set of attributes FK from relation R1 is a foreign key that references relatio
 - For instance, if Students(StudentID,Name,DoB) contains only:
 - (1,'AB','2/5/2007')
 - (2, 'BC', '3/7/2007')
-	- Enrolments can only contain StudentID values of 1, 2 or NULL
+	- Enrollments can only contain StudentID values of 1, 2 or NULL
+
+## More about Constraints
+
+- In SQL, use CREATE TABLE to describe: 
+	- Keys
+	- Permissibility of NULL values
+	- Candidate Keys(Unique)
+	- Foreign Keys
+	- Referential Integrity behaviour
+- There are also semantic attribute integrity constraints
+	- Depending on application semantics:
+		- Employee salary < Manager Salary
+		- Student can't be registered twice on the same module
+		- Module Organiser must be a member of 'Teaching' staff
