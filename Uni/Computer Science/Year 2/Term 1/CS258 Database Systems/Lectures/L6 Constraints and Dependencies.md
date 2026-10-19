@@ -110,3 +110,15 @@ A set of attributes FK from relation R1 is a foreign key that references relatio
 		- Employee salary < Manager Salary
 		- Student can't be registered twice on the same module
 		- Module Organiser must be a member of 'Teaching' staff
+
+
+## Constraints and Updates
+
+- Remember: constraints exist to define permissible values 
+	- This therefore concerns DB updates
+		- tuple insertions/deletions
+		- attribute-value updates
+	- may cause constraint violations
+- DB ensures all constraints are respected/valid at any point in time
+	- Normally, DB's reject violating updates
+	- or might try to correct the data (unlikely)
