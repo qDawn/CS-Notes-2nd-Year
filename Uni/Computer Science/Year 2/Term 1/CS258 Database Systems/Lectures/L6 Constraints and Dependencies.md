@@ -76,3 +76,23 @@ Non-key attributes can also be declared NOT NULL, this would be a domain constra
 
 A logical DB design spreads information across multiple tables 
 Following good DB design practices spreading queryable info across tables is warranted
+- Need to consider how to link tables with Foreign Key relationships
+
+## Referential Integrity
+When one table references a primary key, need to be careful 
+- What if the referenced row is deleted
+- What if the referenced row has its key value changed
+
+A set of attributes FK from relation R1 is a foreign key that references relation R2 if
+- Attribute(s) in FK from R1 have same domain as the attribute(s) in the primary key PK of R2, and 
+- A value of FK in a tuple t1 of R1 must either:
+	- Refer to a value of the PK of some tuple t2 in R2
+	- Or, be NULL
+- Formally:
+	- t1 in R1 references t2 in R2
+		- if R1.t1[FK] = R2.t2[PK],or
+		- R1.t1[FK] is NULL
+- For instance, if Students(StudentID,Name,DoB) contains only:
+- (1,'AB','2/5/2007')
+- (2, 'BC', '3/7/2007')
+	- Enrolments can only contain StudentID values of 1, 2 or NULL
