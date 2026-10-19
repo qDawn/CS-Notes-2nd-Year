@@ -122,3 +122,58 @@ A set of attributes FK from relation R1 is a foreign key that references relatio
 - DB ensures all constraints are respected/valid at any point in time
 	- Normally, DB's reject violating updates
 	- or might try to correct the data (unlikely)
+
+
+# Potential Violations
+
+## Insert 
+
+- If the values for an attribute is not in domain 
+- New tuple has same key value as an existing tuple
+- If a non-NULL foreign key value does not exist in referenced relation
+- if Primary key value in new tuple NULL
+
+## Update
+
+- If the value you are trying to update a tuple to is not in domain for the attribute
+- If updating the Primary Key in which the new value is a duplicate
+- If a foreign key is updated to a value that does not exist in referenced relation
+- If referenced primary key is updated where foreign keys still refer to old value
+- If trying to update Primary key to NULL
+
+## Delete
+
+- Delete can't cause a violation
+- Could violate if deleted tuple's primary key is referenced by foreign keys in other tables
+
+## Functional Dependencies: A Primer
+
+X, Y, Z represent a set of attributes 
+A, B, C, ... represent single attributes. Notation ABC = {A,B,C} 
+A functional dependency X -> Y is an assertion about a relation R and two (sets of) attributes from R, it specifies a constraint on the possible values of tuples in r(R)
+
+If X -> Y the values of the Y component of a tuple (i.e., t[Y]) depend on the values of the X component of the tuple
+
+Concretely, values of X component uniquely (functionally) determine Y values 
+
+So X -> Y specifies that whenever two tuples of R agree on values of all the attributes of X, then they must also agree on the values of attributes of Y 
+
+## Why do we need Functional Dependencies? 
+
+A formal tool that allows derivation of good DB designs 
+A good design depends on dependencies 
+
+![[Pasted image 20261019021558.png]]
+
+If K is a super key, then K -> A for any (subset of) attributes A in R
+If X -> R then X is a super key
+
+## Who/What Determines FDs
+
+We could assert a key K
+- Then the only FDs asserted are that K -> A for every attribute in the schema 
+- No surprise: K is the only key for those FDs, according to the formal definition of "key"
+
+Or we could assert some FDs, and deduce one or more keys by formal definition
+Rule of thumb: often FDs come from either keyness, or "physics/logic"
+
