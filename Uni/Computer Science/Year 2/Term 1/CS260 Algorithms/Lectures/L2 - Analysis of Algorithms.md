@@ -22,3 +22,14 @@ if that condition is met it is poly-time
 
 Asymptotic Notation
 ![[Pasted image 20261006221451.png]]
+
+# Types of Time complexities 
+
+## $$O(n\log n)$$
+
+Arises in divide and conquer algorithms, common in algorithms which perform sorting. i.e Merge sort and heap sort
+
+## $$O(n^2)$$
+Usually found in solutions with two nested loops, usually sub-optimal
+
+
