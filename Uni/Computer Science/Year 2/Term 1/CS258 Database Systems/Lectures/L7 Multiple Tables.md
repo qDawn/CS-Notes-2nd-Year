@@ -28,3 +28,20 @@ WHERE students.courseID = courses.courseID;
 
 ## More on Multi-Relation Queries
 
+If attributes have the same name we can distinguish them with the following 
+``` SQL
+<relation>.<attribute>
+```
+
+![[Pasted image 20261020180249.png]]
+
+## Explicit Tuple Variables
+![[Pasted image 20261020180416.png]]
+
+In event of a Self Join these restrictions are good for removing the usually unwanted rows.
+
+## CROSS JOIN
+
+CROSS JOIN can be used in place of a comma when referencing multiple tables. R,S == S,R. 
+However, the order would be different. In SQL if you want a specific order, use ORDER BY.
+
