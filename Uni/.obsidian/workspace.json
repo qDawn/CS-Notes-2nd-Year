@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
+                "file": "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L5 Graph Algorithms"
+              "title": "Exam Timetable.md"
             }
           }
         ],
@@ -214,8 +214,19 @@
   },
   "active": "3ff204a91f833e06",
   "lastOpenFiles": [
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2025.pdf",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2026.pdf",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Past Papers/cs258_2013.pdf",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2026.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2025.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2024.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2021.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2020.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2019.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2018.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L3 Exemplar Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 Analysis of Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261021194301.png",
@@ -247,19 +258,8 @@
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 2.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 0.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Coursework",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L3 SQL Introduction.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L2 Database Intro.md",
-    "Dashboard/Search.base",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Resources",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Diagrams & Media",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev",
-    "Daily Planner",
-    "Computer Science/Year 2/! Schedule"
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L3 SQL Introduction.md"
   ]
 }
