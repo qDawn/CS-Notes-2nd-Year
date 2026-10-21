@@ -25,14 +25,12 @@
             "id": "3ff204a91f833e06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
-                "mode": "source",
-                "source": false
+                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Exam Timetable.md"
+              "icon": "lucide-file-text",
+              "title": "cs243_2013"
             }
           }
         ],
@@ -214,6 +212,9 @@
   },
   "active": "3ff204a91f833e06",
   "lastOpenFiles": [
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/c260_20220_ans.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf",
+    "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2025.pdf",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2026.pdf",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Past Papers/cs258_2013.pdf",
@@ -223,8 +224,6 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2024.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2021.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2020.pdf",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2019.pdf",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2018.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L3 Exemplar Algorithms.md",
@@ -259,7 +258,6 @@
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Problem Set/Problem Set 0.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L3 SQL Introduction.md"
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md"
   ]
 }
