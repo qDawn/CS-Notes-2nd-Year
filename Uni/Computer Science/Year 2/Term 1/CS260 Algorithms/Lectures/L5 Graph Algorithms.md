@@ -21,3 +21,6 @@ If a graph is bipartite it cannot contain an odd length cycle
 - If cycle then discard
 # Dijkstra's Shortest Path Algorithm
 
+![[Pasted image 20261024195326.png]]
+
+From D1 FM
