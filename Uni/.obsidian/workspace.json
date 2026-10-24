@@ -25,12 +25,14 @@
             "id": "3ff204a91f833e06",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf"
+                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "cs243_2013"
+              "icon": "lucide-file",
+              "title": "L5 Graph Algorithms"
             }
           }
         ],
@@ -212,8 +214,8 @@
   },
   "active": "3ff204a91f833e06",
   "lastOpenFiles": [
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/c260_20220_ans.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/c260_20220_ans.pdf",
     "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2025.pdf",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2026.pdf",
