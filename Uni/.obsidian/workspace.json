@@ -25,14 +25,17 @@
             "id": "3ff204a91f833e06",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
-                "mode": "source",
-                "source": false
+                "file": "Dashboard/Plan.canvas",
+                "viewState": {
+                  "x": 165,
+                  "y": 231.60000000000002,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "L5 Graph Algorithms"
+              "icon": "lucide-layout-dashboard",
+              "title": "Plan"
             }
           }
         ],
@@ -214,6 +217,7 @@
   },
   "active": "3ff204a91f833e06",
   "lastOpenFiles": [
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261024195326.png",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/c260_20220_ans.pdf",
@@ -226,7 +230,6 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2025.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2024.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2021.pdf",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L3 Exemplar Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 Analysis of Algorithms.md",
@@ -243,7 +246,6 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261006221451.png",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261006220905.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261020192448.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261020180416.png",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L6 Constraints and Dependencies.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",

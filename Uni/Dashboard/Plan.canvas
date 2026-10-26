@@ -1,9 +1,10 @@
 {
 	"nodes":[
-		{"id":"f37f3e7572fa1fef","type":"text","text":"Algorithms problem sheet\n2","x":-120,"y":40,"width":250,"height":60},
-		{"id":"075048357c58d9af","type":"text","text":"Prototype Game dev","x":200,"y":40,"width":250,"height":50},
-		{"id":"c7e745c2669f7955","type":"text","text":"Algorithms notes and problem sheet\n","x":-120,"y":140,"width":250,"height":50},
-		{"id":"1754c009c36ffa3a","type":"text","text":"Probability and Stats problem sheet 2","x":200,"y":140,"width":250,"height":60}
+		{"id":"f37f3e7572fa1fef","type":"text","text":"Prob and stats Problem set 2","x":-120,"y":40,"width":250,"height":60},
+		{"id":"075048357c58d9af","type":"text","text":"Bullet hell Game Design Document work\n","x":200,"y":40,"width":250,"height":50},
+		{"id":"c7e745c2669f7955","type":"text","text":"Algorithms coursework\n\n","x":-120,"y":140,"width":250,"height":50},
+		{"id":"1754c009c36ffa3a","type":"text","text":"Databases Coursework\n","x":200,"y":140,"width":250,"height":60},
+		{"id":"7882aff3366bd8a0","x":-120,"y":220,"width":250,"height":60,"type":"text","text":"Prob and stats catchup\n"}
 	],
 	"edges":[]
 }
