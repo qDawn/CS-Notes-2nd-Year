@@ -25,17 +25,14 @@
             "id": "3ff204a91f833e06",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard/Plan.canvas",
-                "viewState": {
-                  "x": 165,
-                  "y": 231.60000000000002,
-                  "zoom": 0
-                }
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L9 Nesting.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Plan"
+              "icon": "lucide-file",
+              "title": "L9 Nesting"
             }
           }
         ],
@@ -98,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 325.5,
+    "collapsed": true
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -217,19 +215,23 @@
   },
   "active": "3ff204a91f833e06",
   "lastOpenFiles": [
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261024195326.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L8 JDBC.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L9 Nesting.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L7 Multiple Tables.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2025.pdf",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2016.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/c260_20220_ans.pdf",
+    "Dashboard/Plan.canvas",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261024195326.png",
     "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2025.pdf",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2026.pdf",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Past Papers/cs258_2013.pdf",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2026.pdf",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2025.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2024.pdf",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2021.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L3 Exemplar Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 Analysis of Algorithms.md",
@@ -241,15 +243,12 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L1 Introduction.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261020180249.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261020175810.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L8 JDBC.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L7 Multiple Tables.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261006221451.png",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261006220905.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261020192448.png",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L6 Constraints and Dependencies.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
-    "Dashboard/Plan.canvas",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L5 Data Manipulation.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L4 SQL Data Definition Language.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Coursework/GDD.md",
