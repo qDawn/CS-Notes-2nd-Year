@@ -73,7 +73,7 @@ SELECT DISTINCT ...
 ```
 
 Force results to be a bag with 
-``` SQL 
+``` postgreSQL 
 UNION ALL 
 EXCEPT ALL
 INTERSECT ALL
