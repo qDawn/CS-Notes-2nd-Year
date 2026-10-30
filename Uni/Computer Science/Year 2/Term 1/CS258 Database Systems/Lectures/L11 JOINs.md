@@ -16,3 +16,6 @@ R NATURAL JOIN S
 ```
 
 This forms the cartesian product of R and S however, this time it looks for attributes of R having the same name type and value as S and keeps it.
+
+## Theta JOINs and JOIN... ON
+
