@@ -19,3 +19,10 @@ This forms the cartesian product of R and S however, this time it looks for attr
 
 ## Theta JOINs and JOIN... ON
 
+Theta joins are extensions to natural joins, they combine product and selections into one operation.
+``` MySQL
+R JOIN S ON <condition>
+```
+
+condition uses a comparison operator, {=,<,<=,>,>=}
+if using = it is an equi-join.
