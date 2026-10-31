@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L11 JOINs.md",
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L12 Aggregation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L11 JOINs"
+              "title": "L12 Aggregation"
             }
           }
         ]
@@ -200,18 +200,19 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
-    "Pasted image 20261031012341.png",
-    "Pasted image 20261031011947.png",
-    "Pasted image 20261030235032.png",
-    "Pasted image 20261030234651.png",
-    "Pasted image 20261030234435.png",
+    "Pasted image 20261031021613.png",
+    "Pasted image 20261031014126.png",
+    "Pasted image 20261031014057.png",
+    "Pasted image 20261031013132.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L11 JOINs.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L12 Aggregation.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031012341.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031011947.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261030235032.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261030234651.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261030234435.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029014335.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029012229.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029011017.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029010407.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029005127.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029004826.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L11 JOINs.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2026.pdf",
     "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
@@ -245,7 +246,6 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L3 Exemplar Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 Analysis of Algorithms.md",
-    "2026-10-20.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L1 Introduction.md"
+    "2026-10-20.md"
   ]
 }
