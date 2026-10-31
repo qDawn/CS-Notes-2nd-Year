@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5,
-    "collapsed": true
+    "width": 325.5
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -198,12 +197,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bab1abf439c684c6",
+  "active": "e4a82ace1c597b3a",
   "lastOpenFiles": [
-    "Pasted image 20261031021613.png",
-    "Pasted image 20261031014126.png",
-    "Pasted image 20261031014057.png",
-    "Pasted image 20261031013132.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031021613.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031014126.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031014057.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031013132.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L11 JOINs.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L12 Aggregation.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031012341.png",
