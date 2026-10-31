@@ -26,3 +26,23 @@ R JOIN S ON <condition>
 
 condition uses a comparison operator, {=,<,<=,>,>=}
 if using = it is an equi-join.
+
+## INNER JOINS
+
+Default operator is called INNER JOIN
+
+<b>INNER JOIN = JOIN = , </b>
+
+## Non-EquiJoins
+
+![[Pasted image 20261030234435.png]]![[Pasted image 20261030234651.png]]
+
+## More than two tables e.g
+![[Pasted image 20261030235032.png]]
+
+## Other Key Aspects 
+
+- Boolean expression in ON doesn't have to use matching column names
+- Instead they can be referred to with quantification and aliasing
+- Boolean expressions don't always have to be =
+- JOINs can be chained together 
