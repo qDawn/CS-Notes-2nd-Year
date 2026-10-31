@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 325.5,
+    "collapsed": true
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -199,6 +200,8 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
+    "Pasted image 20261031012341.png",
+    "Pasted image 20261031011947.png",
     "Pasted image 20261030235032.png",
     "Pasted image 20261030234651.png",
     "Pasted image 20261030234435.png",
@@ -208,7 +211,6 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029010407.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029005127.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029004826.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029004034.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L11 JOINs.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2026.pdf",
     "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Syllabus.md",
@@ -229,7 +231,6 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Texts.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L10 Sets and Nesting.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L9 Nesting.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261029004914.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L8 JDBC.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L7 Multiple Tables.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2025.pdf",

@@ -46,3 +46,29 @@ Default operator is called INNER JOIN
 - Instead they can be referred to with quantification and aliasing
 - Boolean expressions don't always have to be =
 - JOINs can be chained together 
+
+## Inner Join vs Outer Joins
+
+Inner Joins can 'lose' information
+- A tuple that doesn't join with any tuple from the other relation doesn't appear in the result 
+- For a LEFT OUTER JOIN, if there is no matching tuple on the right, it is padded with NULLs
+- Same for a RIGHT OUTER JOIN instead the LEFT table (first table) is padded
+## FULL OUTER JOIN
+
+FULL OUTER Joins union the LEFT and RIGHT OUTER Joins. Essentially padding eithe side depending on which one is missing values.
+
+## Join Syntax
+
+![[Pasted image 20261031011947.png]]
+
+## NATURAL OUTER JOINs
+
+![[Pasted image 20261031012341.png]]
+
+## USING
+
+Keyword can be used instead of ON
+Specifies attributes to match on equality 
+Attribute must exist in both tables
+Can be used for multiple attributes
+Like Natural Join the result won't contain duplicate column names
