@@ -45,3 +45,13 @@ HAVING (condition) can be added after the GROUP BY
 If so, the condition applies to each group 
 
 ![[Pasted image 20261031021613.png]]
+
+## Having conditions
+
+<b> Requirements</b>
+- Conditions may refer to any relation in the FROM clause
+- May refer to attributes fo those relations, as long as the attrbitue makes sense within a group. i.e its either:
+	- A grouping attribute
+	- Aggregated
+
+![[Pasted image 20261101181247.png]]
