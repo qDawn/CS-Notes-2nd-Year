@@ -11,17 +11,14 @@
             "id": "bab1abf439c684c6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard/Plan.canvas",
-                "viewState": {
-                  "x": 165,
-                  "y": -26.795939086294425,
-                  "zoom": -0.08530731262450643
-                }
+                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Plan"
+              "icon": "lucide-file",
+              "title": "L6 Divide and Conquer"
             }
           }
         ]
@@ -202,6 +199,9 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
+    "Dashboard/Plan.canvas",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L12 Aggregation.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261101181247.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031021613.png",
@@ -239,14 +239,11 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2016.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/c260_20220_ans.pdf",
-    "Dashboard/Plan.canvas",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
     "Computer Science/Year 2/Term 3/Exam Timetable.md.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2025.pdf",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Past Papers/cs258_2013.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L3 Exemplar Algorithms.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 Analysis of Algorithms.md",
-    "2026-10-20.md"
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 Analysis of Algorithms.md"
   ]
 }
