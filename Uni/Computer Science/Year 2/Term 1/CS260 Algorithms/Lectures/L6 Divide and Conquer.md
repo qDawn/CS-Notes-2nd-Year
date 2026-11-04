@@ -20,3 +20,22 @@ Consequence of the splitting approach can be large e.g.
 - Brute force for sorting/inversion counting: O($n^2$)
 - Divide and conquer for these problems: O($nlogn$)
 
+## Mergesort and Sorting
+
+Sorting. Given n elements, rearrange in ascending order
+There are many applications of sorting in computer science
+- Some problems are inherently about sorting 
+	- Sort a list of names
+	- Display ranked search results
+	- List news items in reverse chronological order
+- Some problems become easier when their input is sorted
+	- Find the median
+	- Find the closest pair in 1 dimension
+	- Binary search in a db
+-  Some other problems rely on sorting in unexpected ways
+	- Data compression
+	- Computational biology
+	- Load balacing on a parallel computer
+
+## Mergesort Revisited
+
