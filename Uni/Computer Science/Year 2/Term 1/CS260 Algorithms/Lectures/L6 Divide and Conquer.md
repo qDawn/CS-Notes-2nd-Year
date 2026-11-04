@@ -39,3 +39,34 @@ There are many applications of sorting in computer science
 
 ## Mergesort Revisited
 
+Mergesort is a divide and conquer sorting algorithm
+- Divde array into two halves
+- Recursively sort each half
+- Merge two halves to make a sorted whole
+![[Pasted image 20261104215845.png]]
+
+### Merging
+
+Combine two pre-sorted lists into a sorted whole
+
+How to do it efficiently?
+- Perform only a linear number of comparisons
+- Use temporary array to build the merged output
+
+
+## A Useful Recurrence Relation
+
+Set T(n) = number of comparisons to mergesort an input of size n
+We can calculate the Mergesort recurrence to define T(n)
+- Base case: T(n) = 0 if n = 1 (signle elemtn list is already sorted)
+- T(n) $\leq$ T($\frac{n}{2}$) + T($\frac{n}{2}$) + n otherwise Sort left half, sort right half, merge
+
+Solution to the mergesort recurrence is T(n) = ($n\log_{2}n$)
+
+To prove this recurrence
+- Initially we assume n is a power of 2 for simplicity
+- Then we have ($\frac{n}{2}$) + ($\frac{n}{2}$) = $\frac{n}{2}$
+
+
+## Counting inversions
+
