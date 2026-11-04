@@ -11,3 +11,12 @@
 - Conquer: Solve each part recursively
 - Combine: Join solutions to sub problems into overall solutions
 
+Most commonly used to obtain fast algorithms by splitting
+- Break up problem of size n into two equal parts of size $\frac {1}{2}n$ 
+- Solve two parts recursively
+- Combine two solutions into overall solution in (near) linear time
+
+Consequence of the splitting approach can be large e.g.
+- Brute force for sorting/inversion counting: O($n^2$)
+- Divide and conquer for these problems: O($nlogn$)
+
