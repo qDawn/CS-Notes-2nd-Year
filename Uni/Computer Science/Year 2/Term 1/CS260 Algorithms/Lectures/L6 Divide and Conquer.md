@@ -86,9 +86,23 @@ The concept of inversions appear in many applications
 - Nonparametric statistics
 
 
-## Divide and Conquer implementation
+## Divide and Conquer for inversion counting
 
 - Divide: Separate list into two pieces
 - Conquer: recursively count inversions in each half
 - Combine: count inversions where $a_{i}$ and $a_j$ are in different halves and return sum of three quantities
 ![[Pasted image 20261105002127.png]]
+
+Combine: count left-right inversions 
+- Assume each half is sorted, and we will produce sorted output
+- Count invesions where $a_i$ and $a_j$ are in different halves
+	- How many items on left each one on the right has to 'leapfrog'
+- Merge two sorted halves into sorted whole
+![[Pasted image 20261105002748.png]]
+
+## Implementation
+
+![[Pasted image 20261105003131.png]]
+
+# Closest pair of points
+
