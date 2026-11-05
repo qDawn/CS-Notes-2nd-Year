@@ -106,3 +106,44 @@ Combine: count left-right inversions
 
 # Closest pair of points
 
+Given n points in the plane, find a pair with smallest euclidean distance between them
+
+Closest pair is a fundamental geometric primitve:
+- Graphics, games, computer vision, geographic information systems, molecular modeling, air traffic control
+- Special case of nearest neighbour, Euclidean MST, Voronoi diagrams
+	- Fast closest pair inspired fast algorithms for these problems
+
+Brute force: check all pairs of points p,q with O($n^2$) comaprisons
+Assumption No two points have the same x coordinate
+
+## Algorithm for closest pair
+
+Divide: draw vertical line L so that roughly $\frac{1}{2}n$ points on each side
+Conquer: find closest pair in each side recursively
+Combine: find closeest pair with one point in each side
+
+![[Pasted image 20261105004512.png]]
+
+Find the closest pair with a point in each side, assuming distance < $\delta$ 
+- Observation: only need to consider points with $\delta$ of line L 
+- Sort points in $2\delta$ strip by their y coordinate
+- Only check distances of those within 7 positions in sorted list
+- This is because it doesn't make sense to check that far as its obviously longer in $\delta$ + y distance, there is a proof that there is at most 7 other points in this supposed box
+![[Pasted image 20261105011719.png]]
+![[Pasted image 20261105011802.png]]
+
+## Analysis
+
+For the running time the recurrence relation can be written as such
+$$ T(n) = 2T\left( \frac{n}{2} \right) + O(n\log n)$$
+
+Base case: T(1) = O(1)
+- We can solve this by recursion tree or telescoping to get T(n) = $O(n\log^2n)$ 
+
+$O(n\log n)$ is possible with a more involved solution
+- Don't sort points in strip 
+- Each recursive call returns two lists: all points sorted by y coordinate for the strip and x coordinate for the line L
+- Get the new lists by merging the two pre-sorted lists
+
+# Master Method
+
