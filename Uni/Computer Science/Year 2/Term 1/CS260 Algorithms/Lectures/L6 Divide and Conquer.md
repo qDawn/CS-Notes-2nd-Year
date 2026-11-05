@@ -66,7 +66,12 @@ Solution to the mergesort recurrence is T(n) = ($n\log_{2}n$)
 To prove this recurrence
 - Initially we assume n is a power of 2 for simplicity
 - Then we have ($\frac{n}{2}$) + ($\frac{n}{2}$) = $\frac{n}{2}$
-
-
 ## Counting inversions
 
+- Music site tries to match your song preferences with others
+	- You rank n songs
+	- Music site consults database to find people with similar tastes
+- Similarity metric: number of inversions between two rankings
+- If i > j then an inversion is needed there, 
+
+## Applications of inversion counting 
