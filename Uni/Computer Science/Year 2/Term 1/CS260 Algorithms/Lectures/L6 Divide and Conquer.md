@@ -75,3 +75,20 @@ To prove this recurrence
 - If i > j then an inversion is needed there, 
 
 ## Applications of inversion counting 
+
+The concept of inversions appear in many applications
+- Voting theory to compare social choice
+- Collaborative filtering 
+- Measuring the "sortedness" of an array
+- Sensitivity analysis of search engine ranking function
+- Rank aggregation for meta searching on the web
+- Computational biology, comparing two gene sequences
+- Nonparametric statistics
+
+
+## Divide and Conquer implementation
+
+- Divide: Separate list into two pieces
+- Conquer: recursively count inversions in each half
+- Combine: count inversions where $a_{i}$ and $a_j$ are in different halves and return sum of three quantities
+![[Pasted image 20261105002127.png]]
