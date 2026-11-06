@@ -106,4 +106,13 @@ CREATE VIEW <name> AS <query>
 - Query modification
 	- DBMS translates a virtual view query into a query to address the base tables (very small overhead depending on the complexity of the query)
 - View materialisation
-	- Create a temporary table
+	- Create a temporary table (needs storage and incremental updates)
+``` PostgreSQL
+	  CREATE MATERIALIZED VIEW my_view AS ...
+```
+- Updates on views
+	- Can allow UPDATEs on VIEWs for simple simple views of a single table
+	- The update needs to translate unambiguosly to operations on the underlying tables
+	- Usually impossible if the VIEW involves:
+		- joins,grouping,aggregates,DISTINCT, set operations
+![[Pasted image 20261106031119.png]]
