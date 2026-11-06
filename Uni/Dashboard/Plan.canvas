@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"bb0f581a13f01ce7","x":150,"y":220,"width":250,"height":60,"type":"text","text":"Problem Set 3"},
-		{"id":"07b08e1a8893e98e","x":-100,"y":-140,"width":250,"height":60,"type":"text","text":"databases Lab work catchup"},
+		{"id":"bb0f581a13f01ce7","type":"text","text":"Problem Set 3","x":150,"y":220,"width":250,"height":60},
 		{"id":"c7e745c2669f7955","type":"text","text":"Algorithms coursework\n9th Nov\n","x":-100,"y":-60,"width":250,"height":50},
 		{"id":"1b3feba7c3d4ebe6","type":"text","text":"algorithms catchup + notes\nmaster theorem etc\n","x":-100,"y":0,"width":250,"height":60},
 		{"id":"1754c009c36ffa3a","type":"text","text":"Databases Coursework\n16th Dec\n","x":-115,"y":160,"width":250,"height":60},
-		{"id":"96aec3f47cb5ccd6","x":-115,"y":80,"width":250,"height":60,"type":"text","text":"Probability and Stats Revision"},
-		{"id":"219412ab1cfaa98d","x":-125,"y":240,"width":260,"height":60,"type":"text","text":"Video Game Dev 5 enemies (one ability)"},
-		{"id":"f064da9bbabbf861","x":-120,"y":320,"width":250,"height":60,"type":"text","text":"Trackr Internships"}
+		{"id":"96aec3f47cb5ccd6","type":"text","text":"Probability and Stats Revision","x":-115,"y":80,"width":250,"height":60},
+		{"id":"219412ab1cfaa98d","type":"text","text":"Video Game Dev 5 enemies (one ability)","x":180,"y":-80,"width":220,"height":80},
+		{"id":"f064da9bbabbf861","type":"text","text":"Trackr Internships","x":-120,"y":320,"width":250,"height":60},
+		{"id":"dff6c5588392808a","x":-207,"y":210,"width":250,"height":60,"type":"text","text":"german hw catchup"}
 	],
 	"edges":[]
 }
