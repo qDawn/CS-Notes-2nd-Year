@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module Assessment"
+              "title": "L13 DDL and Views"
             }
           }
         ]
@@ -197,8 +197,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bab1abf439c684c6",
+  "active": "e4a82ace1c597b3a",
   "lastOpenFiles": [
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106030746.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106030737.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106022755.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L12 Aggregation.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
@@ -214,10 +220,7 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L5 Graph Algorithms.md",
     "Dashboard/Plan.canvas",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L12 Aggregation.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261101181247.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031021613.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261031014126.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L11 JOINs.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2026.pdf",
     "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Syllabus.md",
@@ -234,12 +237,9 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Coursework",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Coursework/Notes.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Coursework",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Texts.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L10 Sets and Nesting.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L9 Nesting.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L8 JDBC.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L7 Multiple Tables.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2025.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2016.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf",
