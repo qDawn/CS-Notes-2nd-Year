@@ -11,14 +11,17 @@
             "id": "bab1abf439c684c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
-                "mode": "source",
-                "source": false
+                "file": "Dashboard/Plan.canvas",
+                "viewState": {
+                  "x": 137.5,
+                  "y": 120,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "L14 Additional SQL Features"
+              "icon": "lucide-layout-dashboard",
+              "title": "Plan"
             }
           }
         ]
@@ -199,8 +202,8 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106031119.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106030746.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106030737.png",

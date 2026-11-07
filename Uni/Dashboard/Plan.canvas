@@ -7,7 +7,7 @@
 		{"id":"96aec3f47cb5ccd6","type":"text","text":"Probability and Stats Revision","x":-115,"y":80,"width":250,"height":60},
 		{"id":"219412ab1cfaa98d","type":"text","text":"Video Game Dev 5 enemies (one ability)","x":180,"y":-80,"width":220,"height":80},
 		{"id":"f064da9bbabbf861","type":"text","text":"Trackr Internships","x":-120,"y":320,"width":250,"height":60},
-		{"id":"dff6c5588392808a","x":-207,"y":210,"width":250,"height":60,"type":"text","text":"german hw catchup"}
+		{"id":"dff6c5588392808a","type":"text","text":"german hw catchup","x":-120,"y":250,"width":250,"height":60}
 	],
 	"edges":[]
 }
