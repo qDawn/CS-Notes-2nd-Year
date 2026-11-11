@@ -1,13 +1,30 @@
 {
 	"nodes":[
-		{"id":"bb0f581a13f01ce7","type":"text","text":"Problem Set 3","x":150,"y":220,"width":250,"height":60},
-		{"id":"c7e745c2669f7955","type":"text","text":"Algorithms coursework\n9th Nov\n","x":-100,"y":-60,"width":250,"height":50},
-		{"id":"1b3feba7c3d4ebe6","type":"text","text":"algorithms catchup + notes\nmaster theorem etc\n","x":-100,"y":0,"width":250,"height":60},
-		{"id":"1754c009c36ffa3a","type":"text","text":"Databases Coursework\n16th Dec\n","x":-115,"y":160,"width":250,"height":60},
-		{"id":"96aec3f47cb5ccd6","type":"text","text":"Probability and Stats Revision","x":-115,"y":80,"width":250,"height":60},
-		{"id":"219412ab1cfaa98d","type":"text","text":"Video Game Dev 5 enemies (one ability)","x":180,"y":-80,"width":220,"height":80},
-		{"id":"f064da9bbabbf861","type":"text","text":"Trackr Internships","x":-120,"y":320,"width":250,"height":60},
-		{"id":"dff6c5588392808a","type":"text","text":"german hw catchup","x":-120,"y":250,"width":250,"height":60}
+		{"id":"d430c06f4c40903b","x":-370,"y":-60,"width":250,"height":60,"type":"text","text":"marshall wace assessment "},
+		{"id":"a7ac261813d985a3","x":-370,"y":-220,"width":250,"height":60,"type":"text","text":"URGENT\n"},
+		{"id":"c7e745c2669f7955","type":"text","text":"Probability problem set 3\n\n","x":-370,"y":-140,"width":250,"height":60},
+		{"id":"219412ab1cfaa98d","type":"text","text":"Video Game Dev 5 enemies (one ability)","x":-370,"y":20,"width":250,"height":60},
+		{"id":"210a8afe8e3a23e7","x":-100,"y":-220,"width":250,"height":60,"type":"text","text":"IMPORTANT"},
+		{"id":"1b3feba7c3d4ebe6","type":"text","text":"algorithms catchup + notes\nmaster theorem etc\n","x":-100,"y":-140,"width":250,"height":60},
+		{"id":"96aec3f47cb5ccd6","type":"text","text":"Probability and Stats Revision","x":-100,"y":-60,"width":250,"height":60},
+		{"id":"dff6c5588392808a","type":"text","text":"german hw catchup","x":-370,"y":100,"width":250,"height":60},
+		{"id":"1754c009c36ffa3a","type":"text","text":"Databases Coursework\n16th Dec\n","x":-100,"y":20,"width":250,"height":60},
+		{"id":"f064da9bbabbf861","type":"text","text":"Trackr Internships","x":180,"y":-140,"width":250,"height":60},
+		{"id":"a8aeb56ad5869167","x":180,"y":-220,"width":250,"height":60,"type":"text","text":"DO WHEN FREE"},
+		{"id":"12eb840562975bcf","x":180,"y":-60,"width":250,"height":60,"type":"text","text":"Climbing Induction"},
+		{"id":"be7bdb293ec6ffe7","x":-100,"y":-520,"width":250,"height":60,"type":"text","text":"NOTE\n"},
+		{"id":"459d5a248a0b593a","x":-370,"y":-420,"width":250,"height":60,"type":"text","text":"CS260 Class Test "},
+		{"id":"4e5357a1dff00d2f","x":-100,"y":-420,"width":250,"height":60,"type":"text","text":"German Online Exam 12/12/26 Saturday 9-10 am"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"4d7ef82db3a24ea2","fromNode":"a7ac261813d985a3","fromSide":"bottom","toNode":"c7e745c2669f7955","toSide":"top"},
+		{"id":"f5b7164f49b24cbe","fromNode":"c7e745c2669f7955","fromSide":"bottom","toNode":"d430c06f4c40903b","toSide":"top"},
+		{"id":"0956d84e905271e6","fromNode":"d430c06f4c40903b","fromSide":"bottom","toNode":"219412ab1cfaa98d","toSide":"top"},
+		{"id":"5f1742c9dda56fe0","fromNode":"219412ab1cfaa98d","fromSide":"bottom","toNode":"dff6c5588392808a","toSide":"top"},
+		{"id":"3d453e037cc7f18c","fromNode":"210a8afe8e3a23e7","fromSide":"bottom","toNode":"1b3feba7c3d4ebe6","toSide":"top"},
+		{"id":"bb403eca7f455905","fromNode":"1b3feba7c3d4ebe6","fromSide":"bottom","toNode":"96aec3f47cb5ccd6","toSide":"top"},
+		{"id":"6fe826b4abadc55d","fromNode":"96aec3f47cb5ccd6","fromSide":"bottom","toNode":"1754c009c36ffa3a","toSide":"top"},
+		{"id":"26f0bc02a369b2d2","fromNode":"a8aeb56ad5869167","fromSide":"bottom","toNode":"f064da9bbabbf861","toSide":"top"},
+		{"id":"1286d3e45d644c6b","fromNode":"f064da9bbabbf861","fromSide":"bottom","toNode":"12eb840562975bcf","toSide":"top"}
+	]
 }
