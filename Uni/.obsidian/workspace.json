@@ -11,17 +11,14 @@
             "id": "bab1abf439c684c6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard/Plan.canvas",
-                "viewState": {
-                  "x": 140,
-                  "y": -43.367187500000014,
-                  "zoom": 0
-                }
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Plan"
+              "icon": "lucide-file",
+              "title": "L14 Additional SQL Features"
             }
           }
         ]
@@ -202,13 +199,13 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
-    "WHACK/Ideas.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
+    "Dashboard/Plan.canvas",
+    "WHACK/Ideas.md",
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L10 Sets and Nesting.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L12 Aggregation.md",
-    "Dashboard/Plan.canvas",
     "WHACK/Pasted image 20261107111628.png",
     "WHACK/Pasted image 20261107111613.png",
     "WHACK/Pasted image 20261107111701.png",
@@ -243,7 +240,6 @@
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Coursework",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Coursework/Notes.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Coursework",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Resources/Texts.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2025.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2016.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf",
