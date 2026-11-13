@@ -59,3 +59,54 @@ e.g Ordering product
 - Updates DB
 
 
+## Separating Application / Business logic from DB
+
+- Good to separate the applicatoin logic from the DB
+	- Security purposes:
+		- End user interacting with our application rather than directly with DB 
+		- Server is only accessible from the middle tier
+			- End users can't directly interact with DB 
+	- Client is just a web browser connected to web server
+- But, good reasons to embed application logic inside DB server
+	- Write the application logic in functions/procedures
+
+## Persistent Stored Modules
+
+Persistent Stored Modules
+- Stored Procedures/Functions/Triggers
+- Logic that is used by multiple clients
+	- Keep constraints and business rules on the server
+	- Independent of any client application
+	- Don't need to keep programmign rules in different clients
+- Can be more efficient - send parameters direct to DB server rather than calculating lots of different values and then sending
+- Can use procedures to express more complex data models than constraints
+
+## Database Programming Languages
+
+- Declaring and calling stored procedures
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
