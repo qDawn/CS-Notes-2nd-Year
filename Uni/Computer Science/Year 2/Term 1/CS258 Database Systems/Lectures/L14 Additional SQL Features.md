@@ -24,3 +24,23 @@ This command performs the same thing as epoch from now() however it strips away 
 
 ## Window Functions
 
+- Window functions calculate over a set of related rows
+- These are partitioned over a particular window (group)
+
+![[Pasted image 20261113011342.png]]
+
+![[Pasted image 20261113012307.png]]
+
+- It can also refer to the previous row with LAG
+- And the next row tihe LEAD
+![[Pasted image 20261113012518.png]]
+
+## Two Tier Architecture
+
+![[Pasted image 20261113012640.png]]
+
+Multiple clients, using different software, connected to (and sharing) many databases
+
+## For DB Programming
+
+- Client applications use 

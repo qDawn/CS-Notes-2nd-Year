@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -199,6 +200,10 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
+    "Pasted image 20261113012640.png",
+    "Pasted image 20261113012518.png",
+    "Pasted image 20261113012307.png",
+    "Pasted image 20261113011342.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
     "Dashboard/Plan.canvas",
@@ -214,12 +219,9 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106031119.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106030746.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106030737.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261106022755.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Module Assessment.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Syllabus.md",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261105011802.png",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Diagrams & Media/Pasted image 20261105011719.png",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L2 Analysis of Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L3 Exemplar Algorithms.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
