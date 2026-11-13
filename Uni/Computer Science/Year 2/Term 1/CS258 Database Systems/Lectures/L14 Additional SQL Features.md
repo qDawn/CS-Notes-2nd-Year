@@ -84,29 +84,49 @@ Persistent Stored Modules
 ## Database Programming Languages
 
 - Declaring and calling stored procedures
+![[Pasted image 20261113192145.png]]
+
+## SQL/PSM: Extending SQL for PSMs
+
+DBMS have their own flavours of procedural code to support PSM
+In Postgres PSM procedural code needs to be specified as "PL/pgSQL"
+
+![[Pasted image 20261113192235.png]]
 
 
+## SQL/PSM
+
+![[Pasted image 20261113192249.png]]
 
 
+## WARNING - DO NOT USE PROCEDURAL CONSTRUCTS UNLESS YOU HAVE TO!
+
+<b>It is much more efficient to SELECT ... WHERE x is true, than to SELECT all then loop to find where x is true </b>
+
+## Full Example
+
+![[Pasted image 20261113192511.png]]
 
 
+## Calling PSMs from JDBC
+- So far we have used Statements and PreparedStatements 
+- Now we can use CallableStatements
+- SQL:
+``` SQL
+CREATE PROCEDURE myProc (param1 IN NUMBER, param2 OUT VARCHAR)
+BEGIN
+...
+END
+```
 
+- Java:
+``` java
+CallableStatement cstmt = null;
+String SQL = "{call myProc(?, ?)}";
+cstmt = conn.prepareCall(SQL);
+```
+## Triggers 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![[Pasted image 20261113192756.png]]
+- Allows for more complex checking/rejecting of new data
+- Can update database when particular actions take place
