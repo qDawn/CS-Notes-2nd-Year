@@ -43,4 +43,19 @@ Multiple clients, using different software, connected to (and sharing) many data
 
 ## For DB Programming
 
-- Client applications use 
+- Client applications use Application Program Interface (API) to access server databases via standard interface such as:
+	- JDBC: for Java programming access
+	- Embedded SQL for C programmic access
+- A client program may connect to (the servers of) several DBMSs, sometimes called the data sources
+- DB servers provide database (Data Definition and Data Manipulation) services to (potentially different types of) clients
+
+## The Three Tier Architecture for DB Programming 
+
+Between the client and the DB server there is some DB application
+![[Pasted image 20261113191324.png]]
+e.g Ordering product
+- Click browser, converts to action
+- Sends request to server, converts to DB logic
+- Updates DB
+
+

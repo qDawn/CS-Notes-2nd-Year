@@ -1,4 +1,5 @@
 {
   "accentColor": "#31c2f2",
-  "cssTheme": "GitHub Theme"
+  "cssTheme": "GitHub Theme",
+  "showRibbon": true
 }
