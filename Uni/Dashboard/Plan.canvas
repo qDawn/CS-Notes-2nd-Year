@@ -2,20 +2,18 @@
 	"nodes":[
 		{"id":"a7ac261813d985a3","type":"text","text":"URGENT\n","x":-370,"y":-220,"width":250,"height":60},
 		{"id":"210a8afe8e3a23e7","type":"text","text":"IMPORTANT","x":-100,"y":-220,"width":250,"height":60},
-		{"id":"1b3feba7c3d4ebe6","type":"text","text":"algorithms catchup + notes\nmaster theorem etc\n","x":-100,"y":-140,"width":250,"height":60},
-		{"id":"96aec3f47cb5ccd6","type":"text","text":"Probability and Stats Revision","x":-100,"y":-60,"width":250,"height":60},
-		{"id":"1754c009c36ffa3a","type":"text","text":"Databases Coursework\n16th Dec\n","x":-100,"y":20,"width":250,"height":60},
 		{"id":"f064da9bbabbf861","type":"text","text":"Trackr Internships","x":180,"y":-140,"width":250,"height":60},
 		{"id":"a8aeb56ad5869167","type":"text","text":"DO WHEN FREE","x":180,"y":-220,"width":250,"height":60},
-		{"id":"12eb840562975bcf","type":"text","text":"Climbing Induction","x":180,"y":-60,"width":250,"height":60},
+		{"id":"12eb840562975bcf","type":"text","text":"Climbing Induction Sunday","x":180,"y":-60,"width":250,"height":60},
 		{"id":"be7bdb293ec6ffe7","type":"text","text":"NOTE\n","x":-100,"y":-520,"width":250,"height":60},
 		{"id":"459d5a248a0b593a","type":"text","text":"CS260 Class Test ","x":-370,"y":-420,"width":250,"height":60},
 		{"id":"4e5357a1dff00d2f","type":"text","text":"German Online Exam 12/12/26 Saturday 9-10 am","x":-100,"y":-420,"width":250,"height":60},
-		{"id":"219412ab1cfaa98d","type":"text","text":"Video Game Dev 5 enemies (one ability)","x":-370,"y":-140,"width":250,"height":60}
+		{"id":"219412ab1cfaa98d","type":"text","text":"Video Game Dev 5 enemies (one ability)","x":-370,"y":-140,"width":250,"height":60},
+		{"id":"1b3feba7c3d4ebe6","type":"text","text":"algorithms catchup + notes\nmaster theorem etc\n","x":-370,"y":-60,"width":250,"height":60},
+		{"id":"96aec3f47cb5ccd6","type":"text","text":"Probability and Stats Revision","x":-100,"y":-140,"width":250,"height":60},
+		{"id":"1754c009c36ffa3a","type":"text","text":"Databases Coursework\n16th Dec\n","x":-100,"y":-60,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"3d453e037cc7f18c","fromNode":"210a8afe8e3a23e7","fromSide":"bottom","toNode":"1b3feba7c3d4ebe6","toSide":"top"},
-		{"id":"bb403eca7f455905","fromNode":"1b3feba7c3d4ebe6","fromSide":"bottom","toNode":"96aec3f47cb5ccd6","toSide":"top"},
 		{"id":"6fe826b4abadc55d","fromNode":"96aec3f47cb5ccd6","fromSide":"bottom","toNode":"1754c009c36ffa3a","toSide":"top"},
 		{"id":"26f0bc02a369b2d2","fromNode":"a8aeb56ad5869167","fromSide":"bottom","toNode":"f064da9bbabbf861","toSide":"top"},
 		{"id":"1286d3e45d644c6b","fromNode":"f064da9bbabbf861","fromSide":"bottom","toNode":"12eb840562975bcf","toSide":"top"}
