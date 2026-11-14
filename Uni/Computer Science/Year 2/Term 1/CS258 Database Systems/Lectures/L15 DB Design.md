@@ -57,3 +57,45 @@ Redundancy causes potential delete anomalies
 - If all students on a course are deleted, all information about that course is also lost
 
 Grouping students and courses in a single relation is undesirable, can lose information
+
+## Guideline 2 Revisited
+
+More formally it is:
+- Design relation schemas such that no insertion, deletion and update anomalies are present
+We could use TRIGGERs, etc. to maintain the 'redundant' information if we wanted to
+- That would eliminate some of the problems
+- But it is still 'wasteful'
+	- Would use procedural techniques, processing/network/storage
+More important to concentrate on good design of the base relations
+
+## Guideline 3: No NULLs
+
+NULL values are harmful and should be avoided
+- They waste storage space
+- Complicate semantics of joins, selection, aggregation
+NULLs are useful for N/A, or Unknown
+But if it's often NULL, why store it in the main table?
+![[Pasted image 20261114220449.png]]
+
+## Decomposition
+
+To avoid anomalies, a bad relational schema must be decomposed into smalelr relation schemas
+Need to be able to join decomposed relations
+- When joining, we need exactly the original information
+- No less - we don't want to lose information
+- No more - we don't want extra (incorrect) information - 'spurious tuples'
+
+## Guideline 4: No Spurious Tuples
+
+The following design has redundancy problems 
+- Why store SName multiple times?
+![[Pasted image 20261114222349.png]]
+Maybe break it into two - how about?
+- R1(StudentID,ModuleID,Building)
+- R2(SName,Building)
+When we join them, we want exactly R back
+
+e.g
+![[Pasted image 20261114222415.png]]
+
+![[Pasted image 20261114222435.png]]
