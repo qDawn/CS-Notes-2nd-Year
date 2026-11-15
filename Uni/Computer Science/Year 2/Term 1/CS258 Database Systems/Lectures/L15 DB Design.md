@@ -195,3 +195,53 @@ The following can reasonably be defined as FDs:
 
 ## Normal Forms
 
+- First Normal Form (1NF)
+- Second Normal Form (2NF)
+- Third Normal Form (3NF)
+- Boyce-Codd Normal Form (BCNF)
+- Fourth Normal Form (4NF)
+- Fifth Normal Form (5NF)
+- Sixth Normal Form (6NF)
+
+If R is of normal form i, it is also of normal form j, j < i
+Typically, 3NF or BCNF will suffice 
+All normal forms up to BCNF depend on FDs
+
+## Keys and FDs - recall definitions
+
+- Superkey - any group of attributes that server as a key
+	- e.g. all attributes of a relation
+- Candidate key - a minimal superkey
+	- There might be > 1 candidate key
+- (Primary) Key - the chosen candidate key 
+- A prime (or key) attribute
+	- An attribute that is part of the primary key
+	- Must be a member of some candidate key
+- Person(SSN,Name,HomeAddress,HomeTel,Birthplace,PassportNumber)
+
+## Some Set Theory Definitions
+
+Imagine we have attributes {A,B,C}
+Subset: {A,B,C}, {A,B}, {B,C}, {A,C}, {A}, {B}, {C}, {}
+Proper Subset: {A,B}, {B,C}, {A,C}, {A}, {B}, {C}, {}
+Superset: {A,B,C}, {A,B,C,D}
+Proper Superset: {A,B,C,D}
+Think of "superkey" as a "superset" of a key (either it is a key itself with no extra attributes, or it is a "proper superset" with extra attributes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
