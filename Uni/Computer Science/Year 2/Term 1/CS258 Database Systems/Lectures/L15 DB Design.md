@@ -99,3 +99,48 @@ e.g
 ![[Pasted image 20261114222415.png]]
 
 ![[Pasted image 20261114222435.png]]
+
+## Why Functional Dependencies?
+
+So far, we've talked about informal guidelines for a good DB design
+FDs are used to specify formal measures of the "goodness" of the relational designs
+Will be used to define keys
+- Essential to define normal forms for relations
+Then we can prove how good a relational schema design is
+
+FD's are constraints
+- Derived from the meaning and interrelationships of the data attributes of a relation schema R
+- Constrains possible values different attributes may have as they depend on other attributes 
+Given a set attributes X and a set of attributes Y from a relation schema R, we say:
+- X functionally determines Y
+	- X -> Y
+	- Values of the Y component of a tuple of r(R) depend on (are uniquely determined by) the values of the X component of the tuple
+- We say that the value of X determines a unique value for Y
+
+Formally, given:
+- A relation schema R
+- A relation instance r(R)
+- Sets of attributes X and Y (subsets of R)
+X -> Y if for any tuples t1 and t2 in any relation instance r(R) it holds that:
+- if t1[X] = t2[X], then t1[Y] = t2[Y]
+X -> Y in R, specifies a constaint on all relation instances r(R) of R
+
+FDs are derived from the real-world constraints on the attributes
+By inspecting a given r(R)
+- We can only say if a FD does not hold
+- We cannot conclude if an FD holds
+
+### Example
+![[Pasted image 20261115000349.png]]
+
+![[Pasted image 20261115000959.png]]
+
+## Functional Dependency Overview
+
+Let X, Y be sets of attributes of a relation schema R. A functional dependency (of Y on X), written X -> Y, is a constraint on the allowable states r of R.
+
+- The constraint states:
+	- for any t1,t2 in r, if t1[X] = t2[X] then t1[Y] = t2[Y]
+
+![[Pasted image 20261115001521.png]]
+
