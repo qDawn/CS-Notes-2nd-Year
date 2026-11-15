@@ -228,7 +228,17 @@ Superset: {A,B,C}, {A,B,C,D}
 Proper Superset: {A,B,C,D}
 Think of "superkey" as a "superset" of a key (either it is a key itself with no extra attributes, or it is a "proper superset" with extra attributes)
 
+## Keys and FDs 
 
+A superkey K of relation schema R must be:
+- Composed of attributes (subset of R) required so that:
+	- The superkey uniquely determines each tuple in a relation
+	- For any tuples t1,t2 of a relation instance r(R) 
+		- If t1 != t2, then t1[K] != t2[K]
+So superkeys uniquely identify/constrain tuples
+FDs uniquely identify attribute values of tuples
+- If A -> B and we know A, we will uniquely identify B
+If K is a superkey of R, then K -> R
 
 
 
