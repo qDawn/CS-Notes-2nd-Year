@@ -240,9 +240,30 @@ FDs uniquely identify attribute values of tuples
 - If A -> B and we know A, we will uniquely identify B
 If K is a superkey of R, then K -> R
 
+### Example
 
+- With FDs, we can express constraints that can't be expressed with keys
+	- BorrowLoan (CustomerID, LoanNumber, LoanAmount, LoanType)
+	- If we want to have unique loan type per loan number, then define:
+	- LoanNumber -> LoanType
 
+## Normalisation: Decomposing
 
+- As mentioned, normalisation progressively breaks large relation schemas into smaller ones
+	- But not all decompositions are good - recall spurious tuples
+- The following properties are important:
+	- Lossless or non-additive decomposition
+		- a.k.a Lossless-join or non-additive join property
+		- Critical
+	- Dependency preservation property
+		- To be defined later
+		- Desirable, but sometimes sacrificed for other factors
+
+## Lossless Join Decomposition
+
+- A.K.A Non-additive Join Decomposition
+- Given a relation schema R and a set F of FDs for R:
+	- {R1,...,Rk} is a lossless-join decomposition of schema R, if for every legal relation instance r of R 
 
 
 
