@@ -157,3 +157,41 @@ Let X, Y be sets of attributes of a relation schema R. A functional dependency (
 
 Provable, there is no FD Dnumber -> Ename
 - For Dnumber = 1, there are two tuples with different values of Ename
+I cannot prove or disprove that Bdate -> Ename
+- Each Bdate currently maps to a single Ename, but I do not know if a new tuple with an existing bdate but different ename could be added, two employees could have the same bdate
+An FD is a property of the relation schema NOT of the relation state
+
+The following can reasonably be defined as FDs:
+- SSN determines employee name
+- Project number determines project name and location
+- Employee SSN and project number determines the hours per week the employye works on the project
+- If K is a key of R, then K functionally determines all attributes in R : K -> R
+	- By definition, never two distinct tuples with 
+	- t1[K] = t2[K]
+
+## FDs and the Relation Model
+
+- Discovering and avoiding redundancy fundamentally depends on the notion of functional dependencies
+- FDs specify which attributes can become keys
+
+## Relation DBs and Normalisation
+
+- Normalisation theory
+	- Ensures it's easy for users to understand and retrieve information
+	- Helps avoid storing (and needing to maintain) redundant information
+- Relations with certain properties are more effective in inserting, updating and deleting data than other sets of relations containing the same data
+
+## RDB Design and Normalisation
+
+- Start from a "universal" all attribute listing relation
+	- Progressively remove redundant data from tables
+	- And thus avoid anomalies
+- We can quantify how efficient a database design is:
+	- Normal Forms 
+	- Can use algorithms to convert from one Normal Form to another
+- Normalisation generally decomposes an existing table into multiple tables
+	- Re-join each time we query - so no information lost
+- Using Lossless (or non-additive) joins and dependency preservation 
+
+## Normal Forms
+
