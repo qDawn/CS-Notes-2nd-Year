@@ -144,3 +144,16 @@ Let X, Y be sets of attributes of a relation schema R. A functional dependency (
 
 ![[Pasted image 20261115001521.png]]
 
+- Schema property reflecting the semantics of attributes
+- Cannot be read off a particular relation state, but can be refuted this way
+
+- Some FD's for the example:
+	- FD1: {SSN, PNumber} -> Hours
+	- FD2: SSN -> Ename
+	- FD3: PNumber -> {Pname,PLocation}
+
+## (Dis)proving FDs By Inspection
+
+
+Provable, there is no FD Dnumber -> Ename
+- For Dnumber = 1, there are two tuples with different values of Ename
