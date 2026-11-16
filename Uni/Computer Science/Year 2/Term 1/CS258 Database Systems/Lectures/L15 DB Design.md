@@ -265,8 +265,17 @@ If K is a superkey of R, then K -> R
 - Given a relation schema R and a set F of FDs for R:
 	- {R1,...,Rk} is a lossless-join decomposition of schema R, if for every legal relation instance r of R 
 
+![[Pasted image 20261116013009.png]]
 
+pi is a projection, the bowtie symbol represents a multiplication symbol (joins results)
+Start with these many projections and when combined it should form r.
 
+- If reconstructing (JOINing) all these smaller projections, we want to get back all the tuples we started with 
+
+### Example
+![[Pasted image 20261116015047.png]]
+
+### Example 2
 
 
 
