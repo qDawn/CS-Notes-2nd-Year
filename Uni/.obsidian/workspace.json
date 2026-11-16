@@ -11,14 +11,17 @@
             "id": "bab1abf439c684c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
-                "mode": "source",
-                "source": false
+                "file": "Dashboard/Plan.canvas",
+                "viewState": {
+                  "x": 250.94827586206898,
+                  "y": -244.39036437201457,
+                  "zoom": 0.07662128160291237
+                }
               },
-              "icon": "lucide-file",
-              "title": "L15 DB Design"
+              "icon": "lucide-layout-dashboard",
+              "title": "Plan"
             }
           }
         ]
@@ -197,22 +200,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4a82ace1c597b3a",
+  "active": "bab1abf439c684c6",
   "lastOpenFiles": [
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116022859.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116015047.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116015020.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116013009.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261115001521.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261115000959.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261115000349.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261114222435.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261114222415.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261114222349.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261114220449.png",
     "Dashboard/Plan.canvas",
     "WHACK/Ideas.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
