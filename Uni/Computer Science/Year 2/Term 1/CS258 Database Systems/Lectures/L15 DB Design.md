@@ -277,8 +277,7 @@ Start with these many projections and when combined it should form r.
 
 ### Example 2
 
-
-
+![[Pasted image 20261116022859.png]]
 
 
 
