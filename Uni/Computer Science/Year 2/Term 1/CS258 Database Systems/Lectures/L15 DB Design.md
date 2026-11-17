@@ -342,4 +342,34 @@ Proof:
 
 ## Test for Non-additive Join
 
+In general, given R and set of FDs F:
+- R1, R2 is a lossless decomposition of R in F if and only if either:
+	- $R_{1}\cap R_{2} \to (R_{1} - R_{2})$
+	- OR
+	- $R_{1}\cap R_{2} \to (R_{2} - R_{1})$
+	- exists in $F^+$
+- Where $F^+$ is cover of F and represents the set of all implied FDs from F
+
+![[Pasted image 20261117144312.png]]
+
+## Dependency Preservation
+
+R(City, StreetAndNumber, Postcode) with FDs
+- {City, StreetAndNumber} $\to$ Postcode
+- Postcode $\to$ City
+Decompose to:
+- R1 (StreetAndNumber,Postcode)
+- R2(City,Postcode)
+
+Is this a lossless-join decomposition?
+- $R_{1}\cap R_{2} =$ Postcode
+- $R_{2}-R_{1} =${City,Postcode} - {StreetAndNumber,Postcode} = City
+- Postcode $\to$ City $\therefore$ yes, this is lossless
+
+Is this dependency preserving?
+- Can't check {City,StreetAndNumber} $\to$ Postcode without joining $R_{1}$ and $R_{2}$ first
+- $\therefore$ Not dependency preserving
+
+Example:
+![[Pasted image 20261117145308.png]]
 
