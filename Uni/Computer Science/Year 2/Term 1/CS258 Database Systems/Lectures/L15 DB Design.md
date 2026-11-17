@@ -314,3 +314,32 @@ Effectively, if I know X, I can determine Y
 If I know X and Z, I can determine Y and Z
 
 ## Implied FDs
+
+- Some additional inference rules that are useful
+![[Pasted image 20261117014107.png]]
+
+- The last inference rules as well as any other inference rules can be deduced from IR1,IR2 and IR3 (completeness property)
+
+## Decomposition
+
+- If X $\implies$ YZ, then X $\implies$Y and X $\implies$Z
+
+Proof:
+- 1. $X \implies YZ$ (given)
+- 2. $YZ \implies Y$ (Reflexivity)
+- 3. $X \implies Y$ (Transitivity of 1 and 2)
+
+## Union
+
+- If $X\implies Y$ and $X\implies Z$ then $X\implies YZ$
+
+Proof:
+- 1. $X\implies Y$ (given)
+- 2. $X\implies Z$(given)
+- 3. $X\implies ZX$(Augmentation of 2 and X) - note, LHS becomes XX, which is X
+- 4. $XZ\implies YZ$(Augmentation of 1 and Z)
+- 5. $X\implies YZ$ (Transitivity of 3 and 4)
+
+## Test for Non-additive Join
+
+
