@@ -70,3 +70,35 @@ SELECT Pnumber, Dnum, Lname, Address, Bdate
 ## The Expression Tree
 
 ![[Pasted image 20261117205814.png]]
+
+## Selection ($\sigma$)
+
+![[Pasted image 20261117210205.png]]
+
+## Algebraic Properties
+
+![[Pasted image 20261117210222.png]]
+
+## Demonstrating Commutativity of $\sigma$
+![[Pasted image 20261117210249.png]]
+
+## Demonstrating Sequencing of $\sigma$
+![[Pasted image 20261117210807.png]]
+
+## Projection $\pi$
+
+- Selection chooses Tuples
+- Projection chooses Attributes
+- $\pi<attribute\_list>(R)$
+- Where attribute_list is the desired subset of attributes from the attributes of R.
+- $\pi_{Lname,Fname,Salary}$(EMPLOYEE)
+
+## Algebraic Properties of $\pi$ 
+
+- If the attribute list does not include keys, result might contain duplicates:
+- But in RA, duplicates are not allowed, so are eliminated
+- Set (RA) vs Bag(SQL) semantics
+![[Pasted image 20261117211921.png]]
+
+- If list1 is a proper subset of list2![[Pasted image 20261117211951.png]]
+- If list2 is a superset of list1![[Pasted image 20261117212008.png]]
