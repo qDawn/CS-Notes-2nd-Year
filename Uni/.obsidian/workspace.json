@@ -11,17 +11,14 @@
             "id": "bab1abf439c684c6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard/Plan.canvas",
-                "viewState": {
-                  "x": 250.94827586206898,
-                  "y": -244.39036437201457,
-                  "zoom": 0.07662128160291237
-                }
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Plan"
+              "icon": "lucide-file",
+              "title": "L15 DB Design"
             }
           }
         ]
@@ -83,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 452.5,
+    "collapsed": true
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -202,6 +200,8 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
+    "Pasted image 20261117003027.png",
+    "Dashboard/Plan.canvas",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116022859.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116015047.png",
@@ -215,7 +215,6 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261114222435.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261114222415.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261114222349.png",
-    "Dashboard/Plan.canvas",
     "WHACK/Ideas.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L10 Sets and Nesting.md",

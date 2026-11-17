@@ -280,7 +280,37 @@ Start with these many projections and when combined it should form r.
 ![[Pasted image 20261116022859.png]]
 
 
+## Implied Functional Dependencies
 
+- Given relation schema R, the closure (cover) $F^+$ of a set of FDs, F:
+	- $F^+$ represents the set of all implied FDs from F
+- The implied (inferred) FDs from F are derived using Armstrong's Axioms
+- IR1(Reflexive), IR2(Augmentation), IR3(Transitive)
+- ![[Pasted image 20261117003027.png]]
+- They all form a sound and complete set of inference rules
+	- These rules hold for every legal state r of R and
+	- All other rules that hold can be deduced from these
 
+## IR1 Reflexive
 
+- If Y $\subseteq$ X, then X $\implies$ Y 
+- Proof by contradicution
+	- Suppose NOT(X $\implies$ Y )
+	- $\exists t_{1},t_{2} \in r(R)$ such that $t_{1}[X] = t_{2}[X]$ and $t_{1}[Y] \neq t_{2}[Y]$
+- Since X is a superset of Y, then X = ZY for some attribute(s) Z
+	- So $t_{1}[X]=t_{2}[X]$
+	- So $t_{1}[ZY] = t_{2}[ZY]$
+	- So $t_{1}{Y] = t_{2}[Y]}$, which is a contradiction
 
+## IR2. Augmentation
+
+- If X $\implies$ Y, then XZ $\implies$ YZ
+- Given X $\implies$ Y 
+- $\forall t_{1},t_{2}, \in r(R)$
+- If $t_{1}[X] = t_{2}[X],$ $t_{1}[Y] = t_{2}[Y]$
+- If $t_{1}[XZ] = t_{2}[XZ],$ then $t_{1}[YZ] = t_{2}[YZ]$
+- Therefore XZ$\implies$YZ
+Effectively, if I know X, I can determine Y
+If I know X and Z, I can determine Y and Z
+
+## Implied FDs
