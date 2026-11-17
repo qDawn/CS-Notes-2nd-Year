@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5,
-    "collapsed": true
+    "width": 452.5
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -198,15 +197,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bab1abf439c684c6",
+  "active": "e4a82ace1c597b3a",
   "lastOpenFiles": [
-    "Pasted image 20261117212008.png",
-    "Pasted image 20261117211951.png",
-    "Pasted image 20261117211921.png",
-    "Pasted image 20261117210807.png",
-    "Pasted image 20261117210249.png",
-    "Pasted image 20261117210222.png",
-    "Pasted image 20261117210205.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117212008.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117211951.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117211921.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117210807.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117210249.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117210222.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117210205.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117205814.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117205749.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117204909.png",
