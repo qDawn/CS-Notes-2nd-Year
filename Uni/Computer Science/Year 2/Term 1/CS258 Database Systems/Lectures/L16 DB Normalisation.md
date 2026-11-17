@@ -140,3 +140,109 @@ Despite fixing the 1NF anomalies we still have :
 - DELETE: Deleting instances of a module might delete information about a lecturer 
 - UPDATE: If a lecturer moves office, we might need to update multiple rows
 
+## Third Normal Form (3NF)
+
+A relation is said to be in 3NF if:
+- It is in 2NF and 
+- There is no transitive dependency from a key to a non-key attribute
+	- When one non-key attribute determines another non-key attribute this is a transitive functional dependency
+R(A,B,C)
+![[Pasted image 20261117175716.png]]
+- A $\to$ B
+- B $\to$ C, but B isn't a superkey. C isn't a subkey
+- This violates the "Nothing but the key" requirement
+
+Fortunately, it's always possible to find a decomposition that is 
+- In 3NF
+- Dependency-Preserving
+- A Lossless-join decomposition
+
+## The 2NF Problem
+
+Given the 
+
+- StudentID $\to$ (StudentID,SName)
+- ModuleID $\to$ (ModuleID, ModuleName,Lecturer, LecturerOffice)
+- Enrolment $\to$ (StudentID,ModuleID)
+
+Think of FDs
+- StudentID $\to$ {SName}
+- ModuleID $\to$ {ModuleName,Lecturer}
+- Lecturer $\to$ LecturerOffice
+
+The problem: LecturerOffice is transitivitely depended on Lecturer
+- Informally, could say that LecturerOffice fails the "nothing but the key" requirement
+- Module relation is not in 3NF
+
+## Decompose (3NF)
+
+To fix this we introduce a new schema of relations:
+- StudentID $\to$ (StudentID,SName)
+- ModuleID $\to$ (ModuleID, ModuleName,Lecturer)
+- Lecturer $\to$ (Lecturer, LecturerOffice)
+- Enrolment $\to$ (StudentID,ModuleID)
+![[Pasted image 20261117180139.png]]
+
+## The Anomalies Removed
+
+- Insertion: Can now represnet a lecturer's office without them needing to teach a module
+- Deletion: If a lecturer stops teaching a module, we won't lose their office
+- Update: Lecturer's office details are stored in one place
+
+
+## Boyce-Codd Normal Form
+
+A relation schema R is in Boyce-Codd Normal Form if whenever a FD $X \to A$ holds in R, then X is a superkey
+
+Most 3NF relations are also in BCNF 
+A 3NF relation is NOT in BCNF if:
+- There is a determinant that is NOT a superkey in a non-trivial FD
+3NF requires that non-key attributes need to be determined only by the key 
+- BCNF additionally says that the RHS of a FD must not be a prime(key) attribute (unless FD is trivial)
+The only arrows are out of "superkeys"
+Chris Date: Each attribute must represent a fact about the key, the whole key and nothing but the key
+
+![[Pasted image 20261117191515.png]]
+Most 3NF relations are also BCNF
+
+## Is this TEACH relation in BCNF
+
+![[Pasted image 20261117191752.png]]
+
+## Achieving BCNF By Decomposition
+
+There are 3 possible decompositions:
+- D1: (Student,Instructor) and (Student,Course)
+- D2: (Course, Instructor) and (Cousre,Student)
+- D3: (Instructor, Course) and (Instructor, Student)
+
+All 3 decompositions lose
+- FD1: {Student,Course} $\to$ Instructor
+- Therefore, we must sacrifice functional dependency preservation
+	- But we cannot sacrifice the non-additivity property after decomposition 
+	- Only D3 will not generate spurious tuples
+	- Check this with the lossless join decomposition test
+
+
+## Design Goals: Summary
+
+Our goal for relational database design is:
+- BCNF 
+- Lossless-join decomposition
+- Dependency Preservaiton
+If we cannot achieve this, ew 
+- Either choose BCNF, and accept lack of dependency preservation, or 
+- Choose 3NF
+
+## Costs of Normalising
+
+Normalisation decomposes a DB into multiple tables
+To retrieve complete information from a normalised database, requires data from different tables
+- So we must join them together
+JOIN is typically a very expensive operation (in terms of processing and resources required)
+- Very large joins can be very expensive
+Some R-DBs use tables that are not in high Normal Forms
+A trend in recent big data applications has produced "modern" DBs that avoid (some/ all) normalisation
+- Called 'NoSQL DBs'
+Data Warehouses (OLAP), uses denormalised tables
+

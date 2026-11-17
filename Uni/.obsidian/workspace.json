@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "German/Module Assessment.md",
+                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L16 DB Normalisation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module Assessment"
+              "title": "L16 DB Normalisation"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 452.5,
+    "collapsed": true
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -199,6 +200,18 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
+    "Pasted image 20261117191752.png",
+    "Pasted image 20261117191515.png",
+    "Pasted image 20261117180139.png",
+    "Pasted image 20261117175716.png",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2026.pdf",
+    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2025.pdf",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Coursework/GDD.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
+    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
+    "Computer Science/Year 2/Templates/Diagram Note Template.md",
+    "German/Module Assessment.md",
     "WHACK/Pasted image 20261107111613.png",
     "WHACK/Ideas.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L16 DB Normalisation.md",
@@ -209,11 +222,7 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117145308.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117144312.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117014107.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117003027.png",
     "Dashboard/Plan.canvas",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116022859.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116015047.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
@@ -232,19 +241,11 @@
     "Computer Science/Year 2/Term 2/CS241 OS and Computer Networks/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Syllabus.md",
     "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Syllabus.md",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Syllabus.md",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Module Assessment.md",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L4 - Loops.md",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Lectures/L1 Introduction.md",
-    "Computer Science/Year 2/Term 1/CS276 Video Game Design and Dev/Coursework/GDD.md",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Module Assessment.md",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2026.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Coursework",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Coursework",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2025.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs260_2016.pdf",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/cs243_2013.pdf",
-    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/c260_20220_ans.pdf",
-    "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2025.pdf"
+    "Computer Science/Year 2/Term 1/CS260 Algorithms/Resources/Past Papers/c260_20220_ans.pdf"
   ]
 }

@@ -14,8 +14,8 @@ tags: [diagram, year2]
 
 ## 🧩 Key Components
 | Part | Description |
-|------|--------------|
-|      |              |
+| ---- | ----------- |
+|      |             |
 
 ## 📎 Source / Related Lecture
 - [[]]
