@@ -68,3 +68,75 @@ Delete
 U(StudentID, SName, ModuleID, ModuleName, Lecturer, LecturerOffice)
 
 ## Second Normal Form (2NF)
+
+- A relation is said to be in 2NF if 
+	- It is in 1NF, and
+	- Every non-key attribute is fully functionally dependent on any key
+		- If the key is a single attribute and is 1NF.. 2NF is automatically satisfied
+- So, for every key K of R, for every non-key attribute A of R:
+	- K $\to$ is irreducible
+		- i.e it's impossible to break K into a smaller subset
+- No proper subset of the key functionally determines a non-key attribute
+- "The whole key"
+
+- 2NF improves data integrity
+	- Prevents update, insert and delete anomalies
+- Consider:
+	- R(A,B,C,D)
+	- FDs: AB $\to$ C, A $\to$ D
+	- Is this in 2NF?
+- 2NF Criteria
+	- For every K of R and every nonkey attribute A of R:K $\to$ {A} is irreducible
+- What's the problem here?
+	- A $\to$ D is a "partial dependency" - it only depends on part of the key
+
+## 1NF to 2NF
+
+U(StudentID, SName, ModuleID, ModuleName, Lecturer, LecturerOffice)
+Think of FDs
+- StudentID $\to$ {SName}
+- ModuleID $\to$ {ModuleName,Lecturer}
+- Lecturer $\to$ LecturerOffice
+
+The first two FDs violate 2NF, so decompose into relations based on those FDs (extracting out the RHS attributes)
+- Student(StudentID,SName)
+- Module(ModuleID,ModuleName,Lecturer,LecturerOffice)
+
+Which leaves
+- Enrolment(StudentID,ModuleID)
+
+Note: we need a key, otherwise we'd allow duplicate rows
+
+## 2NF
+
+Now in 2NF:
+- StudentID $\to$ (StudentID,SName)
+- ModuleID $\to$ (ModuleID, ModuleName,Lecturer, LecturerOffice)
+- Enrolment $\to$ (StudentID,ModuleID)
+![[Pasted image 20261117174955.png]]
+
+There are no partial dependencies
+- Everything depends on "the whole key"
+
+Every non-key attribute is fully functionally dependent on any key
+- If the key is a single attribute and is 1NF.. 2NF is automatically satisfied
+
+## Fixed 1NF Anomalies
+
+- Now in 2NF:
+	- StudentID $\to$ (StudentID,SName)
+	- ModuleID $\to$ (ModuleID, ModuleName,Lecturer, LecturerOffice)
+	- Enrolment $\to$ (StudentID,ModuleID)
+- We've eliminated the 1NF anomalies
+	- INSERT: Can now insert student without module
+	- INSERT: Can now insert module without student
+	- UPDATE: Can now change lecturer in a single row
+	- DELETE: Deleting a student won't delete information about a module
+
+## 2NF - Storage Anomalies
+
+Despite fixing the 1NF anomalies we still have :
+- INSERT: Can't represent a Lecturer unless they teach a module
+- DELETE: Deleting instances of a module might delete information about a lecturer 
+- UPDATE: If a lecturer moves office, we might need to update multiple rows
+

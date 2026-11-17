@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L16 DB Normalisation.md",
+                "file": "German/Module Assessment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L16 DB Normalisation"
+              "title": "Module Assessment"
             }
           }
         ]
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5,
-    "collapsed": true
+    "width": 452.5
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -200,11 +199,14 @@
   },
   "active": "bab1abf439c684c6",
   "lastOpenFiles": [
-    "Pasted image 20261117173204.png",
-    "Pasted image 20261117150855.png",
-    "Pasted image 20261117145744.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
+    "WHACK/Pasted image 20261107111613.png",
+    "WHACK/Ideas.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L16 DB Normalisation.md",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117174955.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117173204.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117150855.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117145744.png",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117145308.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117144312.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117014107.png",
@@ -212,11 +214,8 @@
     "Dashboard/Plan.canvas",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116022859.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116015047.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116015020.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261116013009.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
-    "WHACK/Ideas.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L10 Sets and Nesting.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L12 Aggregation.md",
