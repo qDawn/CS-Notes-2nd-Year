@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "09435680c6c3c832",
+        "id": "c8f7d87a0ce72b2a",
         "type": "tabs",
         "children": [
           {
-            "id": "bab1abf439c684c6",
+            "id": "9de73f563b0d7c24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L17 Relational Algebra.md",
+                "file": "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L4 Greedy Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L17 Relational Algebra"
+              "title": "L4 Greedy Algorithms"
             }
           }
         ]
@@ -80,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 452.5,
+    "collapsed": true
   },
   "right": {
     "id": "a0b8bdcd4365e6ad",
@@ -197,8 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4a82ace1c597b3a",
+  "active": "9de73f563b0d7c24",
   "lastOpenFiles": [
+    "Dashboard/Plan.canvas",
+    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L17 Relational Algebra.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117212008.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117211951.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117211921.png",
@@ -209,9 +212,7 @@
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117205814.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117205749.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117204909.png",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Diagrams & Media/Pasted image 20261117204825.png",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L16 DB Normalisation.md",
-    "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L17 Relational Algebra.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Lectures/L1 Introduction.md",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2026.pdf",
     "Computer Science/Year 2/Term 1/CS275 Probability and Statistics/Resources/Past Papers/cs275_2025.pdf",
@@ -222,7 +223,6 @@
     "German/Module Assessment.md",
     "WHACK/Ideas.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L15 DB Design.md",
-    "Dashboard/Plan.canvas",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L14 Additional SQL Features.md",
     "Computer Science/Year 2/Term 1/CS258 Database Systems/Lectures/L13 DDL and Views.md",
     "Computer Science/Year 2/Term 1/CS260 Algorithms/Lectures/L6 Divide and Conquer.md",
