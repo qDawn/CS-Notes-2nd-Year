@@ -24,3 +24,12 @@ Problem:
 
 Optimal Solution:
 - Order Jobs by earliest start time
+
+## Minimising Lateness
+
+For p = prepare time and d = deadline given jobs j, what is the smallest amount of lateness you can achieve
+
+Potential Solutions:
+- Sort by prepare time
+- Sort by slack time (d - p)
+- 
