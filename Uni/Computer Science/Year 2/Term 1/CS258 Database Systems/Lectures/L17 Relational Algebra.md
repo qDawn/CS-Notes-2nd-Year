@@ -102,3 +102,57 @@ SELECT Pnumber, Dnum, Lname, Address, Bdate
 
 - If list1 is a proper subset of list2![[Pasted image 20261117211951.png]]
 - If list2 is a superset of list1![[Pasted image 20261117212008.png]]
+
+
+## Renaming
+
+- Relation Renaming
+	- $p_{s}(R)$ , where s is the new name of R
+- Attribute Renaming
+	- $p_{B_{1},\dots,B_{n}}(R)$ , where $B_i$ are the new attribute names
+- General Renaming
+	- $p_{s}(B_{1},\dots,B_{n})(R)$, where you are renaming both relation and attributes
+- Related SQL: SELECT T.Salary AS sal FROM TABLE T
+
+## Relational Algebra Expressions
+
+Describe complex operations on relations in a succint way
+- Single expression
+	- $\pi_{Fname,Lname,Salary}(\sigma_{Dno=5}(EMPLOYEE))$
+	
+Sequence with intermediate results
+- DEP5_EMP5 $\gets \sigma_{Dno=5}(EMPLOYEE)$ 
+- RESULT $\gets \pi_{Fname,Lname,Salary}(DEP5\_EMP5)$
+
+Same as abpve but with renaming
+- TEMP $\gets \sigma_{Dno=5}(EMPLOYEE)$
+- R(First_name,Last_name,Salary) $\gets \pi_{Fname,Lname,Salary}(TEMP)$
+
+## Set-Theoretic Operations
+
+RA uses set semantics for relations
+- so set-theoretic operations are directly applicable
+Set theoretic operations require type-compatibility
+- Same number of attributes, adn each attribute must type in the other relation, or fomrally:
+	- Two relations, R($A_{1},\dots,A_{m}$) and S($B_{1},\dots,B_{n}$) are type compatible if 
+	- m = n and dom($A_{i}$) = dom($B_{i}$) for 1 < i < n
+![[Pasted image 20261126175148.png]]
+
+Convention: resultant relations have the same attributes as R
+
+## Examples
+![[Pasted image 20261126175212.png]]
+
+![[Pasted image 20261126175648.png]]
+
+![[Pasted image 20261126175712.png]]
+
+![[Pasted image 20261126175732.png]]
+
+## Cross Join
+
+The result of $R(A_{1},\dots,A_{m}) \times S(B_{1},\dots,B_{n})$ is a relation $Q(A_{1},\dots,A_m,B_{1},\dots,B_{n})$
+such taht each tuple in Q is a combination of:
+- an m-tuple from R and 
+- an n-tuple from S
+![[Pasted image 20261126180211.png]]
