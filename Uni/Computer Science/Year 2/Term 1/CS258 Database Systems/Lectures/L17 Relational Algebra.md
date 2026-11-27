@@ -185,3 +185,113 @@ JOIN conditions often have $\theta$ as '=' (e.g. of the form a = b)
 
 ## Equijoins
 
+![[Pasted image 20261127182552.png]]
+
+## Natural Join ($\ast$)
+
+- Join attributes must have the same name
+- Join condition is specified implicitly
+- Duplicate columns are omitted 
+- Often preceded by a rename
+	- to make sure the tables have the appropriate matching headings
+ ![[Pasted image 20261127182951.png]]
+
+![[Pasted image 20261127183007.png]]
+
+![[Pasted image 20261127183016.png]]
+
+![[Pasted image 20261127183043.png]]
+
+- Dnumber is present in both DEPARTMENT AND DEPT_LOCATIONS
+- So we can do a natural join without renaming first
+![[Pasted image 20261127183125.png]]
+
+## Completeness
+
+- For expressivity, we need not consider all of the operations
+- Some are included for convenience or brevity
+- An example complete set of operations would be
+	- $\{\sigma,\pi,p,\cup,-,\times \}$
+	- Other operations can be expressed in terms of this set of operations
+	- For example, from the above complete set we can make
+	- $R\cap S\equiv (R\cup S)-((R-S)\cup(S-R))$
+	- $R\bowtie_{\text{<condition>}}S \equiv \sigma_{\text{<condition>}}(R\times S)$
+
+# Division
+
+## The Division Operator
+
+If the Product (Cross Join) operator looks like $\times$
+- What would an operator that looks like $\div$ do to a pair of relations
+- What would it mean? Would it be useful?
+
+![[Pasted image 20261127183546.png]]![[Pasted image 20261127183555.png]]
+
+![[Pasted image 20261127183654.png]]
+
+## SQL Approach to Division
+
+![[Pasted image 20261127183722.png]]
+
+## Creating Division R $\div$ S
+
+![[Pasted image 20261127183749.png]]
+
+## Division: R(Z) $\div$ S(X)
+
+- S(X) be relations such that X$\subseteq$ Z
+	- i.e., S is a 'Skinny' relation. S attributes is a subset of R
+- Let Y = Z - X
+- R(Z) $\div$ S(X)
+	- is a relation T(Y) such that t belogns to T(Y) if and only if, for every $t_{s} \in S$, there exists $t_{R}\in R$ such that 
+		- $t_R[Y] = t$
+		- $t_{R}[X] = t_{s}$
+![[Pasted image 20261127191222.png]]
+
+## NULL
+
+- Technically, NULL isn't in the purest form of Relational Algebra
+	- Using only first-order logic and set theory
+	- No room for NULLs
+- Want to represent that 23456 hasn't chosen a topic yet
+	- Why store them in the topics table at all?![[Pasted image 20261127191649.png]]
+
+![[Pasted image 20261127191746.png]]
+
+![[Pasted image 20261127191752.png]]
+
+
+## Finding a max with RA
+
+![[Pasted image 20261127191823.png]]![[Pasted image 20261127191832.png]]
+
+
+# Extension to Relational Algebra
+
+## Outer Joins
+
+- These deal with NULL
+	- Left Outer Join
+	- Right Outer Join
+	- ![[Pasted image 20261127191925.png]]
+
+## Generalised Projection
+
+![[Pasted image 20261127191939.png]]
+
+## Aggregate Functions
+
+- Group tuples by values of some attributes and apply functions separately to each group
+- $\text{<grouping attributes>} \beta \text{<function list>(R)}$ 
+- $\text{<grouping attributes>}$ is a list of attributes of R
+- $\text{<function list>}$ is a list of $\text{<<function><attribute>>}$ pairs where 
+	- $\text{<function>}$ is typically one of SUM,AVERAGE,MAXIMUM,MINIMUM,COUNT
+	- $\text{<attribute>}$ is an attribute of R
+## Example
+
+### List names of employees with $\geq$ 2 dependents
+
+![[Pasted image 20261127192255.png]]
+
+### Employees on all projects controlled by Department 5
+![[Pasted image 20261127192317.png]]
