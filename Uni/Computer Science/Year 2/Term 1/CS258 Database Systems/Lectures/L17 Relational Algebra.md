@@ -156,3 +156,32 @@ such taht each tuple in Q is a combination of:
 - an m-tuple from R and 
 - an n-tuple from S
 ![[Pasted image 20261126180211.png]]
+
+## Cross Join followed by Selection
+![[Pasted image 20261127180054.png]]
+
+# Joins $\bowtie$ 
+
+Cross products typically meaningless unless accompanied by selection
+- So create a new JOIN operator to encapulate them both
+
+The JOIN of two relations $R(A_{1},\dots,A_{m})$ and $S(B_{1},\dots,B_{n})$ written 
+## $$ R_{\bowtie<\text{join condition>}} S$$
+Gives a relation with:
+- Attributes: Q($A_1,\dots,A_m,B_1,\dots,B_n)$
+- Tuples: consist of an m-tuple from R followed by an n-tuple from S, such that the combination satisfies the join condition
+- Tupels not satisfying the condition are left out
+
+### Join condition
+
+The join condition can be of the form:
+- $\text{<condition>}$ AND ... AND $\text{<condition>}$
+- where condition is :
+	- of the shape $A_{i}\theta B_{j}$, dom($A_{i}$) = dom($B_{j}$) and $\theta \in\{=,<,\leq,>,\geq,\neq\}$
+Use of joins clarifies queries
+- JOIN conditions clearer than Selection conditions after a Cross Join
+JOIN conditions often have $\theta$ as '=' (e.g. of the form a = b)
+- These are called Equijoins
+
+## Equijoins
+
